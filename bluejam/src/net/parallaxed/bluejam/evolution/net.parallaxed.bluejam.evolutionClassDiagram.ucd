@@ -1,0 +1,455 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="net.parallaxed.bluejam.evolutionClassDiagram" foregroundRGB="255,255,255" id="{UMLID=_pMmEoPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution}" metadata="uml2-1.0" initialized="true" scrolledX="42" scrolledY="396" tag="1000" key="323030373036323920626C75656A616D2F41646D696E6973747261746F72">
+  <children xsi:type="editmodel:InterfaceEditModel" name="Breeder" location="609,765" size="106,79" id="{UMLID=_qQ1v4PgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/Breeder}" runTimeClassModel="breed(Lnet.parallaxed.bluejam.Population;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="68,18">
+      <children xsi:type="editmodel:MethodEditModel" name="breed" id="{UMLID=_qRlWwPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/Breeder#breed(Lnet.parallaxed.bluejam.Population;)}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:RealizationEditModel" size="2,1" description="Realization" id="{UMLID=_I1O6sPjTEdy4iJtsDAHRng,JavaID=net.parallaxed.bluejam.evolution/Breeder->net.parallaxed.bluejam.evolution/TreeBreeder}" source="//@children.0" target="//@children.1" targetEnd="//@children.0/@sourceConnections.0/@children.1" label="//@children.0/@sourceConnections.0/@children.2" sourceEnd="//@children.0/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,28" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="160,222"/>
+      <children xsi:type="editmodel:WireLabelEditModel" location="574,745" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.17/@children.1/@children.6/@sourceConnections.0 //@children.0/@sourceConnections.0" name="TreeBreeder" location="360,485" size="160,232" stereotype="" id="{UMLID=_q0mkQPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/TreeBreeder}" runTimeClassModel="maxBreedCycles(I),TreeBreeder(),mutate(Lnet.parallaxed.bluejam.Individual;),crossover(Lnet.parallaxed.bluejam.Individual;Lnet.parallaxed.bluejam.Individual;),TreeBreeder(ID),_crossoverProbability,_maxBreedCycles,crossoverProbability(),crossoverProbability(D),_mt,greedySelect(Lnet.parallaxed.bluejam.NoteTree;),breed(Lnet.parallaxed.bluejam.Population;),p,_crossover(Lnet.parallaxed.bluejam.NoteTree;Lnet.parallaxed.bluejam.NoteTree;),maxBreedCycles(),recombine(Lnet.parallaxed.bluejam.NoteTree;Lnet.parallaxed.bluejam.NoteTree;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="134,82">
+      <children xsi:type="editmodel:AttributeEditModel" name="p" id="{UMLID=_q1f8IPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Population@p+net.parallaxed.bluejam.evolution/TreeBreeder@ownedEnd|net.parallaxed.bluejam/Population#p}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="_crossoverProbability" id="{UMLID=_q1f8IfgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/TreeBreeder#_crossoverProbability}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="139,216">
+      <children xsi:type="editmodel:MethodEditModel" name="maxBreedCycles" id="{UMLID=_q2FyAPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/TreeBreeder#maxBreedCycles()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="crossoverProbability" id="{UMLID=_q1y3E_gEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/TreeBreeder#crossoverProbability()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="TreeBreeder" id="{UMLID=_q1f8I_gEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/TreeBreeder#TreeBreeder()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="breed" id="{UMLID=_q18BA_gEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/TreeBreeder#breed(Lnet.parallaxed.bluejam.Population;)}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="recombine" id="{UMLID=_q1f8JPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/TreeBreeder#recombine(Lnet.parallaxed.bluejam.NoteTree;Lnet.parallaxed.bluejam.NoteTree;)}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="greedySelect" id="{UMLID=_q2FyA_gEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/TreeBreeder#greedySelect(Lnet.parallaxed.bluejam.NoteTree;)}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="crossover" id="{UMLID=_q2sO8fgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/TreeBreeder#crossover(Lnet.parallaxed.bluejam.Individual;Lnet.parallaxed.bluejam.Individual;)}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="mutate" id="{UMLID=_q2Ys9fgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/TreeBreeder#mutate(Lnet.parallaxed.bluejam.Individual;)}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="{UMLID=_q8NBEvgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Population@p+net.parallaxed.bluejam.evolution/TreeBreeder@ownedEnd}" source="//@children.1" target="//@children.19" targetEnd="//@children.1/@sourceConnections.0/@children.2" label="//@children.1/@sourceConnections.0/@children.0" sourceEnd="//@children.1/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" location="330,579" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,55" id="{UMLID=_q8NBE_gEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Population@p+net.parallaxed.bluejam.evolution/TreeBreeder@ownedEnd|net.parallaxed.bluejam.evolution/TreeBreeder#ownedEnd}" attachSource="true" roleLabel="//@children.1/@sourceConnections.0/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="+ ownedEnd" foregroundRGB="255,255,255" location="292,522" size="61,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="p" location="72,404" id="{UMLID=_q1f8IPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Population@p+net.parallaxed.bluejam.evolution/TreeBreeder@ownedEnd|net.parallaxed.bluejam/Population#p}" multiplicityLabel="//@children.1/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.1/@sourceConnections.0/@children.2/@children.0" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="- p" foregroundRGB="255,255,255" location="173,601" size="13,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="200,601" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.19/@sourceConnections.1 //@children.3/@sourceConnections.0 //@children.5/@sourceConnections.0 //@children.4/@sourceConnections.0" name="NoteSequenceInitializer" location="140,680" size="193,79" id="{UMLID=_q8y28PgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/NoteSequenceInitializer}" runTimeClassModel="initialize(Lnet.parallaxed.bluejam.NoteSequence;Lnet.parallaxed.bluejam.PopulationParameters;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="77,18">
+      <children xsi:type="editmodel:MethodEditModel" name="initialize" id="{UMLID=_q8y28fgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/NoteSequenceInitializer#initialize(Lnet.parallaxed.bluejam.NoteSequence;Lnet.parallaxed.bluejam.PopulationParameters;)}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="InitializeGrow" location="50,800" size="147,242" stereotype="" id="{UMLID=_q9_JwPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/InitializeGrow}" runTimeClassModel="_mt,getInstance(),_fromHeuristic(Lnet.parallaxed.bluejam.NoteSequence;Lnet.parallaxed.bluejam.PopulationParameters;),InitializeGrow(),E_TYPE_ERROR,rhythmInitializer,_instance,initialize(Lnet.parallaxed.bluejam.NoteSequence;Lnet.parallaxed.bluejam.PopulationParameters;),_fromScratch(Lnet.parallaxed.bluejam.NoteSequence;Lnet.parallaxed.bluejam.PopulationParameters;),REST_PROPORTION">
+    <children xsi:type="editmodel:CompartmentEditModel" size="126,105">
+      <children xsi:type="editmodel:AttributeEditModel" name="REST_PROPORTION" id="{UMLID=_q-lms_gEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/InitializeGrow#REST_PROPORTION}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="rhythmInitializer" id="{UMLID=_q-lmsPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/RhythmInitializer@rhythmInitializer+net.parallaxed.bluejam.evolution/InitializeGrow@ownedEnd|net.parallaxed.bluejam.evolution/RhythmInitializer#rhythmInitializer}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="_mt" id="{UMLID=_q-b1sPgEEdymusjNjMXN1A,JavaID=ec.util/MersenneTwisterFast@_mt+net.parallaxed.bluejam.evolution/InitializeGrow@ownedEnd|ec.util/MersenneTwisterFast#_mt}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="_instance" id="{UMLID=_q-lmsvgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/InitializeGrow@_instance+net.parallaxed.bluejam.evolution/InitializeGrow@ownedEnd|net.parallaxed.bluejam.evolution/InitializeGrow#_instance}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="E_TYPE_ERROR" id="{UMLID=_q-b1sfgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/InitializeGrow#E_TYPE_ERROR}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,90">
+      <children xsi:type="editmodel:MethodEditModel" name="InitializeGrow" id="{UMLID=_q-4hpfgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/InitializeGrow#InitializeGrow()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="{UMLID=_q-4hpvgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/InitializeGrow#getInstance()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initialize" id="{UMLID=_q_CSoPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/InitializeGrow#initialize(Lnet.parallaxed.bluejam.NoteSequence;Lnet.parallaxed.bluejam.PopulationParameters;)}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="_fromHeuristic" id="{UMLID=_q-4hoPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/InitializeGrow#_fromHeuristic(Lnet.parallaxed.bluejam.NoteSequence;Lnet.parallaxed.bluejam.PopulationParameters;)}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="_fromScratch" id="{UMLID=_q-lmtPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/InitializeGrow#_fromScratch(Lnet.parallaxed.bluejam.NoteSequence;Lnet.parallaxed.bluejam.PopulationParameters;)}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:RealizationEditModel" size="2,1" description="Realization" autoLocated="true" id="{UMLID=_ldU8gPjTEdy4iJtsDAHRng,JavaID=net.parallaxed.bluejam.evolution/InitializeGrow->net.parallaxed.bluejam.evolution/NoteSequenceInitializer}" source="//@children.3" target="//@children.2" targetEnd="//@children.3/@sourceConnections.0/@children.1" label="//@children.3/@sourceConnections.0/@children.2" sourceEnd="//@children.3/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="118,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="28,79"/>
+      <children xsi:type="editmodel:WireLabelEditModel" location="178,773" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="InitializeHeuristicTree" location="370,800" size="179,170" stereotype="" id="{UMLID=_rFSroPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/InitializeHeuristicTree}" runTimeClassModel="getInstance(),_nsBuffer,InitializeHeuristicTree(),breeder,_instance,initialize(Lnet.parallaxed.bluejam.NoteSequence;Lnet.parallaxed.bluejam.PopulationParameters;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="84,69">
+      <children xsi:type="editmodel:AttributeEditModel" name="_instance" id="{UMLID=_rFvXkfgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/InitializeHeuristicTree@_instance+net.parallaxed.bluejam.evolution/InitializeHeuristicTree@ownedEnd|net.parallaxed.bluejam.evolution/InitializeHeuristicTree#_instance}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="_nsBuffer" id="{UMLID=_rFlmkPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/NoteSequence@_nsBuffer+net.parallaxed.bluejam.evolution/InitializeHeuristicTree@ownedEnd|net.parallaxed.bluejam/NoteSequence#_nsBuffer}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="breeder" id="{UMLID=_rFvXkPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/TreeBreeder@breeder+net.parallaxed.bluejam.evolution/InitializeHeuristicTree@ownedEnd|net.parallaxed.bluejam.evolution/TreeBreeder#breeder}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="141,54">
+      <children xsi:type="editmodel:MethodEditModel" name="InitializeHeuristicTree" id="{UMLID=_rFvXlfgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/InitializeHeuristicTree#InitializeHeuristicTree()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="{UMLID=_rFvXkvgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/InitializeHeuristicTree#getInstance()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initialize" id="{UMLID=_rFvXlvgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/InitializeHeuristicTree#initialize(Lnet.parallaxed.bluejam.NoteSequence;Lnet.parallaxed.bluejam.PopulationParameters;)}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:RealizationEditModel" size="2,1" description="Realization" id="{UMLID=_pHkZoPjTEdy4iJtsDAHRng,JavaID=net.parallaxed.bluejam.evolution/InitializeHeuristicTree->net.parallaxed.bluejam.evolution/NoteSequenceInitializer}" source="//@children.4" target="//@children.2" targetEnd="//@children.4/@sourceConnections.0/@children.1" label="//@children.4/@sourceConnections.0/@children.2" sourceEnd="//@children.4/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="78,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="193,66"/>
+      <children xsi:type="editmodel:WireLabelEditModel" location="458,766" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="InitializeRandom" location="210,800" size="148,124" stereotype="" id="{UMLID=_rKNA0PgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/InitializeRandom}" runTimeClassModel="getInstance(),InitializeRandom(),_instance,initialize(Lnet.parallaxed.bluejam.NoteSequence;Lnet.parallaxed.bluejam.PopulationParameters;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="82,23">
+      <children xsi:type="editmodel:AttributeEditModel" name="_instance" id="{UMLID=_rKWx0PgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/InitializeRandom@_instance+net.parallaxed.bluejam.evolution/InitializeRandom@ownedEnd|net.parallaxed.bluejam.evolution/InitializeRandom#_instance}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="116,54">
+      <children xsi:type="editmodel:MethodEditModel" name="InitializeRandom" id="{UMLID=_rKWx0fgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/InitializeRandom#InitializeRandom()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="{UMLID=_rKgi0fgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/InitializeRandom#getInstance()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initialize" id="{UMLID=_rKWx0vgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/InitializeRandom#initialize(Lnet.parallaxed.bluejam.NoteSequence;Lnet.parallaxed.bluejam.PopulationParameters;)}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:RealizationEditModel" size="2,1" description="Realization" autoLocated="true" id="{UMLID=_nsYOAPjTEdy4iJtsDAHRng,JavaID=net.parallaxed.bluejam.evolution/InitializeRandom->net.parallaxed.bluejam.evolution/NoteSequenceInitializer}" source="//@children.5" target="//@children.2" targetEnd="//@children.5/@sourceConnections.0/@children.1" label="//@children.5/@sourceConnections.0/@children.2" sourceEnd="//@children.5/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="61,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="131,79"/>
+      <children xsi:type="editmodel:WireLabelEditModel" location="281,773" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="RhythmInitializer" location="206,940" size="156,214" stereotype="" id="{UMLID=_q-lmsfgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/RhythmInitializer}" runTimeClassModel="rhythmProbability,RHYTHM_PROBABILITY,getInstance(),getNextRhythm(),RHYTHM_ORDER,_instance,_mt,initialize(Lnet.parallaxed.bluejam.NoteTree;Lnet.parallaxed.bluejam.PopulationParameters;),_maxSwingProbability,_minSwingProbability,_swingAmount,initialize(Lnet.parallaxed.bluejam.NoteSequence;Lnet.parallaxed.bluejam.PopulationParameters;),RhythmInitializer()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="145,159">
+      <children xsi:type="editmodel:AttributeEditModel" name="_maxSwingProbability" id="{UMLID=_rL_wlfgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/RhythmInitializer#_maxSwingProbability}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="_minSwingProbability" id="{UMLID=_rL_wlvgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/RhythmInitializer#_minSwingProbability}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="_swingAmount" id="{UMLID=_rL_wl_gEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/RhythmInitializer#_swingAmount}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="rhythmProbability" id="{UMLID=_rL1_kPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/RhythmInitializer#rhythmProbability}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="_instance" id="{UMLID=_rMJhkvgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/RhythmInitializer@_instance+net.parallaxed.bluejam.evolution/RhythmInitializer@ownedEnd|net.parallaxed.bluejam.evolution/RhythmInitializer#_instance}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="117,90">
+      <children xsi:type="editmodel:MethodEditModel" name="RhythmInitializer" id="{UMLID=_rMSrgPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/RhythmInitializer#RhythmInitializer()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="{UMLID=_rMJhk_gEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/RhythmInitializer#getInstance()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initialize" id="{UMLID=_rMSrhvgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/RhythmInitializer#initialize(Lnet.parallaxed.bluejam.NoteTree;Lnet.parallaxed.bluejam.PopulationParameters;)}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getNextRhythm" id="{UMLID=_rMJhlvgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/RhythmInitializer#getNextRhythm()}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.10/@sourceConnections.0 //@children.9/@sourceConnections.0 //@children.8/@sourceConnections.1 //@children.11/@sourceConnections.0" name="IndividualEvaluator" location="580,653" size="163,79" id="{UMLID=_rP3j8PgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/IndividualEvaluator}" runTimeClassModel="evaluate(Lnet.parallaxed.bluejam.Individual;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="81,18">
+      <children xsi:type="editmodel:MethodEditModel" name="evaluate" location="17,47" id="{UMLID=_rP3j8fgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/IndividualEvaluator#evaluate(Lnet.parallaxed.bluejam.Individual;)}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" id="{UMLID=_jxDpMPgpEdy4iJtsDAHRng,JavaID=net.parallaxed.bluejam.evolution/IndividualEvaluator#evaluate(Lnet.parallaxed.bluejam.Individual;)->net.parallaxed.bluejam.evolution/FitnessStacked#evaluate(Lnet.parallaxed.bluejam.Individual;)}" source="//@children.7" target="//@children.12/@children.1/@children.2" targetEnd="//@children.7/@sourceConnections.0/@children.1" label="//@children.7/@sourceConnections.0/@children.2" sourceEnd="//@children.7/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="163,62" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="130,8"/>
+      <children xsi:type="editmodel:WireLabelEditModel" location="1073,575" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <model href="../../../../../bluejam.uml#_jEzAIPgpEdy4iJtsDAHRng"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.12/@sourceConnections.0" name="FitnessContour" location="885,731" size="152,124" stereotype="" id="{UMLID=_rQnK0PgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessContour}" runTimeClassModel="_mt,getInstance(),FitnessContour(),evaluate(Lnet.parallaxed.bluejam.Individual;),_instance">
+    <children xsi:type="editmodel:CompartmentEditModel" size="82,46">
+      <children xsi:type="editmodel:AttributeEditModel" name="_instance" id="{UMLID=_rQ6s0PgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessContour@_instance+net.parallaxed.bluejam.evolution/FitnessContour@ownedEnd|net.parallaxed.bluejam.evolution/FitnessContour#_instance}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="113,54">
+      <children xsi:type="editmodel:MethodEditModel" name="FitnessContour" id="{UMLID=_rRD2wPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessContour#FitnessContour()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="{UMLID=_rRD2wfgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessContour#getInstance()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="evaluate" id="{UMLID=_rQ6s0fgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessContour#evaluate(Lnet.parallaxed.bluejam.Individual;)}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" id="{UMLID=_rSQJkfgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessContour->net.parallaxed.bluejam.evolution/NoteContext}" source="//@children.8" target="//@children.13" targetEnd="//@children.8/@sourceConnections.0/@children.2" label="//@children.8/@sourceConnections.0/@children.0" sourceEnd="//@children.8/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" foregroundRGB="255,255,255" location="1065,858" size="87,28" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="150,108" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,202"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" description="Generalization" source="//@children.8" target="//@children.7" targetEnd="//@children.8/@sourceConnections.1/@children.1" sourceEnd="//@children.8/@sourceConnections.1/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,12" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="163,73"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.12/@sourceConnections.1" name="FitnessDistance" location="886,900" size="149,142" stereotype="" id="{UMLID=_rUygMPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessDistance}" runTimeClassModel="DistanceThreshold,getInstance(),evaluate(Lnet.parallaxed.bluejam.Individual;),_instance,FitnessDistance()">
+    <children xsi:type="editmodel:CompartmentEditModel" size="119,41">
+      <children xsi:type="editmodel:AttributeEditModel" name="_instance" id="{UMLID=_rVFbIPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessDistance@_instance+net.parallaxed.bluejam.evolution/FitnessDistance@ownedEnd|net.parallaxed.bluejam.evolution/FitnessDistance#_instance}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="DistanceThreshold" id="{UMLID=_rU7qIfgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessDistance#DistanceThreshold}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="117,54">
+      <children xsi:type="editmodel:MethodEditModel" name="FitnessDistance" id="{UMLID=_rVPMIfgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessDistance#FitnessDistance()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="{UMLID=_rVFbIfgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessDistance#getInstance()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="evaluate" id="{UMLID=_rVFbJPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessDistance#evaluate(Lnet.parallaxed.bluejam.Individual;)}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" description="Generalization" source="//@children.9" target="//@children.7" targetEnd="//@children.9/@sourceConnections.0/@children.1" sourceEnd="//@children.9/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,4" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="150,79"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.12/@sourceConnections.2" name="FitnessInterval" location="885,485" size="152,219" stereotype="" id="{UMLID=_rXUPwPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessInterval}" runTimeClassModel="_mt,FitnessInterval(),IntervalWindow,getInstance(),evaluate(Lnet.parallaxed.bluejam.Individual;),BackoffPercent,_instance,_harshFitness(II),_smoothedFitness(II)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="104,82">
+      <children xsi:type="editmodel:AttributeEditModel" name="_instance" id="{UMLID=_rXnxwvgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessInterval@_instance+net.parallaxed.bluejam.evolution/FitnessInterval@ownedEnd|net.parallaxed.bluejam.evolution/FitnessInterval#_instance}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="IntervalWindow" id="{UMLID=_rXnxwPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessInterval#IntervalWindow}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="BackoffPercent" id="{UMLID=_rXnxwfgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessInterval#BackoffPercent}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="_mt" id="{UMLID=_rXeAwPgEEdymusjNjMXN1A,JavaID=ec.util/MersenneTwisterFast@_mt+net.parallaxed.bluejam.evolution/FitnessInterval@ownedEnd|ec.util/MersenneTwisterFast#_mt}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="128,90">
+      <children xsi:type="editmodel:MethodEditModel" name="FitnessInterval" id="{UMLID=_rXw7tPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessInterval#FitnessInterval()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="{UMLID=_rXw7sfgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessInterval#getInstance()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="evaluate" id="{UMLID=_rXw7tfgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessInterval#evaluate(Lnet.parallaxed.bluejam.Individual;)}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="_smoothedFitness" id="{UMLID=_rXnxw_gEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessInterval#_smoothedFitness(II)}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="_harshFitness" id="{UMLID=_rX6ssvgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessInterval#_harshFitness(II)}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:GeneralizationEditModel" description="Generalization" source="//@children.10" target="//@children.7" targetEnd="//@children.10/@sourceConnections.0/@children.1" sourceEnd="//@children.10/@sourceConnections.0/@children.0" connectionRouterKind="Manual">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,23" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="163,29"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="FitnessRandom" location="737,1007" size="137,147" stereotype="" id="{UMLID=_rciG8PgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessRandom}" runTimeClassModel="_mt,getInstance(),FitnessRandom(),evaluate(Lnet.parallaxed.bluejam.Individual;),_instance,_evaluators">
+    <children xsi:type="editmodel:CompartmentEditModel" size="92,69">
+      <children xsi:type="editmodel:AttributeEditModel" name="_instance" id="{UMLID=_rc1o8fgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessRandom@_instance+net.parallaxed.bluejam.evolution/FitnessRandom@ownedEnd|net.parallaxed.bluejam.evolution/FitnessRandom#_instance}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="_evaluators" id="{UMLID=_rc-y4PgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/IndividualEvaluator@_evaluators+net.parallaxed.bluejam.evolution/FitnessRandom@ownedEnd|net.parallaxed.bluejam.evolution/IndividualEvaluator#_evaluators}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="114,54">
+      <children xsi:type="editmodel:MethodEditModel" name="FitnessRandom" id="{UMLID=_rc-y4_gEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessRandom#FitnessRandom()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="{UMLID=_rc-y6fgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessRandom#getInstance()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="evaluate" id="{UMLID=_rc-y5PgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessRandom#evaluate(Lnet.parallaxed.bluejam.Individual;)}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:RealizationEditModel" size="2,1" description="Realization" id="{UMLID=_my_LEPjXEdy4iJtsDAHRng,JavaID=net.parallaxed.bluejam.evolution/FitnessRandom->net.parallaxed.bluejam.evolution/IndividualEvaluator}" source="//@children.11" target="//@children.7" targetEnd="//@children.11/@sourceConnections.0/@children.1" label="//@children.11/@sourceConnections.0/@children.2" sourceEnd="//@children.11/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="116,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="163,40"/>
+      <children xsi:type="editmodel:WireLabelEditModel" location="863,836" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="FitnessStacked" location="880,245" size="159,221" stereotype="" id="{UMLID=_rgjrUPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessStacked}" runTimeClassModel="_fi,FitnessStacked(),getInstance(),evaluate(Lnet.parallaxed.bluejam.Individual;),_fd,_instance,_measured,_fc">
+    <children xsi:type="editmodel:CompartmentEditModel" size="89,115">
+      <children xsi:type="editmodel:AttributeEditModel" name="_instance" id="{UMLID=_rhKIRPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessStacked@_instance+net.parallaxed.bluejam.evolution/FitnessStacked@ownedEnd|net.parallaxed.bluejam.evolution/FitnessStacked#_instance}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="_measured" id="{UMLID=_rhKIQvgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Individual@_measured+net.parallaxed.bluejam.evolution/FitnessStacked@ownedEnd|net.parallaxed.bluejam/Individual#_measured}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="_fi" id="{UMLID=_rg2mQPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessInterval@_fi+net.parallaxed.bluejam.evolution/FitnessStacked@ownedEnd|net.parallaxed.bluejam.evolution/FitnessInterval#_fi}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="_fd" id="{UMLID=_rhKIQPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessDistance@_fd+net.parallaxed.bluejam.evolution/FitnessStacked@ownedEnd|net.parallaxed.bluejam.evolution/FitnessDistance#_fd}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="_fc" id="{UMLID=_rhKIQfgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessContour@_fc+net.parallaxed.bluejam.evolution/FitnessStacked@ownedEnd|net.parallaxed.bluejam.evolution/FitnessContour#_fc}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="114,54">
+      <children xsi:type="editmodel:MethodEditModel" name="FitnessStacked" id="{UMLID=_rhKIRfgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessStacked#FitnessStacked()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="{UMLID=_rhKIRvgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessStacked#getInstance()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" targetConnections="//@children.7/@sourceConnections.0" name="evaluate" id="{UMLID=_rhKISfgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessStacked#evaluate(Lnet.parallaxed.bluejam.Individual;)}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="{UMLID=_rkIjyPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessContour@_fc+net.parallaxed.bluejam.evolution/FitnessStacked@ownedEnd}" source="//@children.12" target="//@children.8" targetEnd="//@children.12/@sourceConnections.0/@children.2" label="//@children.12/@sourceConnections.0/@children.0" sourceEnd="//@children.12/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" location="1084,574" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="159,132" id="{UMLID=_rkIjyfgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessContour@_fc+net.parallaxed.bluejam.evolution/FitnessStacked@ownedEnd|net.parallaxed.bluejam.evolution/FitnessStacked#ownedEnd}" attachSource="true" roleLabel="//@children.12/@sourceConnections.0/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="+ ownedEnd" foregroundRGB="255,255,255" location="1046,359" size="61,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="_fc" location="152,51" id="{UMLID=_rhKIQfgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessContour@_fc+net.parallaxed.bluejam.evolution/FitnessStacked@ownedEnd|net.parallaxed.bluejam.evolution/FitnessContour#_fc}" multiplicityLabel="//@children.12/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.12/@sourceConnections.0/@children.2/@children.0" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="- _fc" location="1044,789" size="23,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1044,761" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="{UMLID=_rkIjxvgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessDistance@_fd+net.parallaxed.bluejam.evolution/FitnessStacked@ownedEnd}" source="//@children.12" target="//@children.9" targetEnd="//@children.12/@sourceConnections.1/@children.2" label="//@children.12/@sourceConnections.1/@children.0" sourceEnd="//@children.12/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" location="1084,642" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="159,110" id="{UMLID=_rkIjx_gEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessDistance@_fd+net.parallaxed.bluejam.evolution/FitnessStacked@ownedEnd|net.parallaxed.bluejam.evolution/FitnessStacked#ownedEnd}" attachSource="true" roleLabel="//@children.12/@sourceConnections.1/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="+ ownedEnd" foregroundRGB="255,255,255" location="1046,337" size="61,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="_fd" location="149,40" id="{UMLID=_rhKIQPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessDistance@_fd+net.parallaxed.bluejam.evolution/FitnessStacked@ownedEnd|net.parallaxed.bluejam.evolution/FitnessDistance#_fd}" multiplicityLabel="//@children.12/@sourceConnections.1/@children.2/@children.1" roleLabel="//@children.12/@sourceConnections.1/@children.2/@children.0" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="- _fd" location="1042,947" size="23,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1042,919" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="{UMLID=_rkIjxPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessInterval@_fi+net.parallaxed.bluejam.evolution/FitnessStacked@ownedEnd}" source="//@children.12" target="//@children.10" targetEnd="//@children.12/@sourceConnections.2/@children.2" label="//@children.12/@sourceConnections.2/@children.0" sourceEnd="//@children.12/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" location="1084,423" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="159,87" id="{UMLID=_rkIjxfgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessInterval@_fi+net.parallaxed.bluejam.evolution/FitnessStacked@ownedEnd|net.parallaxed.bluejam.evolution/FitnessStacked#ownedEnd}" attachSource="true" multiplicityLabel="//@children.12/@sourceConnections.2/@children.1/@children.1" roleLabel="//@children.12/@sourceConnections.2/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="+ ownedEnd" foregroundRGB="255,255,255" location="1046,314" size="61,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" location="1046,342" size="0,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="_fi" location="152,40" id="{UMLID=_rg2mQPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/FitnessInterval@_fi+net.parallaxed.bluejam.evolution/FitnessStacked@ownedEnd|net.parallaxed.bluejam.evolution/FitnessInterval#_fi}" multiplicityLabel="//@children.12/@sourceConnections.2/@children.2/@children.1" roleLabel="//@children.12/@sourceConnections.2/@children.2/@children.0" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="- _fi" location="1044,532" size="19,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1044,504" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.8/@sourceConnections.0" name="NoteContext" location="1094,703" size="141,308" stereotype="" id="{UMLID=_rMvXcPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/NoteContext}" runTimeClassModel="_deriveContour(),add(Lnet.parallaxed.bluejam.Note;),net.parallaxed.bluejam.evolution.NoteContext.Contour,_changed,clear(),NoteContext(Lnet.parallaxed.bluejam.SequenceParameters;),_contour,contour(),serialVersionUID,add(ILnet.parallaxed.bluejam.Note;),_contourThreshold,remove(I),remove(Ljava.lang.Object;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="120,77">
+      <children xsi:type="editmodel:AttributeEditModel" name="serialVersionUID" id="{UMLID=_rowlEfgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/NoteContext#serialVersionUID}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="_changed" id="{UMLID=_rpMp8fgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/NoteContext#_changed}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="_contourThreshold" id="{UMLID=_rpMp8PgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/NoteContext#_contourThreshold}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="114,144">
+      <children xsi:type="editmodel:MethodEditModel" name="contour" id="{UMLID=_rpgL9PgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/NoteContext#contour()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="add" id="{UMLID=_rpMp9_gEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/NoteContext#add(Lnet.parallaxed.bluejam.Note;)}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="remove" id="{UMLID=_rpMp8vgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/NoteContext#remove(I)}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="clear" id="{UMLID=_rqGB1PgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/NoteContext#clear()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="NoteContext" id="{UMLID=_rq_ZsPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/NoteContext#NoteContext(Lnet.parallaxed.bluejam.SequenceParameters;)}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="101,107">
+      <children xsi:type="editmodel:EnumerationEditModel" name="Contour" size="101,105" id="{UMLID=_rRNnwPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/NoteContext$Contour}" runTimeClassModel="UP%,NONE%,DOWN%">
+        <children xsi:type="editmodel:CompartmentEditModel" size="61,54">
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="UP" id="{UMLID=_ry4xcfgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/NoteContext$Contour#UP%}"/>
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="DOWN" id="{UMLID=_ry4xcPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/NoteContext$Contour#DOWN%}"/>
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="NONE" id="{UMLID=_ry4xcvgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/NoteContext$Contour#NONE%}"/>
+        </children>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+      </children>
+    </children>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.16/@sourceConnections.0 //@children.15/@sourceConnections.0 //@children.17/@sourceConnections.2" name="IndividualSelector" location="580,550" size="163,79" id="{UMLID=_sExLofgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/IndividualSelector}" runTimeClassModel="select(Lnet.parallaxed.bluejam.Population;I)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="69,18">
+      <children xsi:type="editmodel:MethodEditModel" name="select" id="{UMLID=_sFEGkPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/IndividualSelector#select(Lnet.parallaxed.bluejam.Population;I)}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="SelectProportional" location="1085,340" size="159,65" stereotype="" id="{UMLID=_sF9ecPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/SelectProportional}" runTimeClassModel="select(Lnet.parallaxed.bluejam.Population;I)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="69,18">
+      <children xsi:type="editmodel:MethodEditModel" name="select" id="{UMLID=_sGHPcPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/SelectProportional#select(Lnet.parallaxed.bluejam.Population;I)}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:RealizationEditModel" size="2,1" description="Realization" id="{UMLID=_SKYaQPjVEdy4iJtsDAHRng,JavaID=net.parallaxed.bluejam.evolution/SelectProportional->net.parallaxed.bluejam.evolution/IndividualSelector}" source="//@children.15" target="//@children.14" targetEnd="//@children.15/@sourceConnections.0/@children.1" label="//@children.15/@sourceConnections.0/@children.2" sourceEnd="//@children.15/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="64,65" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="148,0"/>
+      <children xsi:type="editmodel:WireLabelEditModel" location="944,463" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="SelectTournament" location="882,20" size="157,178" stereotype="" id="{UMLID=_sHAAQPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/SelectTournament}" runTimeClassModel="_mt,getInstance(),round1(Lnet.parallaxed.bluejam.Individual;I),round2(Lnet.parallaxed.bluejam.Individual;),select(Lnet.parallaxed.bluejam.Population;I),SelectTournament(),setUp(Lnet.parallaxed.bluejam.Population;Lnet.parallaxed.bluejam.Individual;I),_instance">
+    <children xsi:type="editmodel:CompartmentEditModel" size="82,46">
+      <children xsi:type="editmodel:AttributeEditModel" name="_instance" id="{UMLID=_sHmdMfgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/SelectTournament@_instance+net.parallaxed.bluejam.evolution/SelectTournament@ownedEnd|net.parallaxed.bluejam.evolution/SelectTournament#_instance}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="127,108">
+      <children xsi:type="editmodel:MethodEditModel" name="SelectTournament" id="{UMLID=_sIWEEfgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/SelectTournament#SelectTournament()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getInstance" id="{UMLID=_sIMTFvgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/SelectTournament#getInstance()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="select" id="{UMLID=_sIWEF_gEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/SelectTournament#select(Lnet.parallaxed.bluejam.Population;I)}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setUp" id="{UMLID=_sIDJIPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/SelectTournament#setUp(Lnet.parallaxed.bluejam.Population;Lnet.parallaxed.bluejam.Individual;I)}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="round1" id="{UMLID=_sIWEEvgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/SelectTournament#round1(Lnet.parallaxed.bluejam.Individual;I)}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="round2" id="{UMLID=_sHmdMvgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/SelectTournament#round2(Lnet.parallaxed.bluejam.Individual;)}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:InterfaceRealizationEditModel" size="2,1" id="{UMLID=_sHTiQPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.evolution/SelectTournament->net.parallaxed.bluejam.evolution/IndividualSelector}" source="//@children.16" target="//@children.14" targetEnd="//@children.16/@sourceConnections.0/@children.1" sourceEnd="//@children.16/@sourceConnections.0/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,14" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="163,1"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Evolve" location="558,20" size="180,445" stereotype="" id="{UMLID=_YSCH0M--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam/Evolve}" packageIndication="1" runTimeClassModel="elites,generations(),maxElites,_memberCount,feedback(ILnet.parallaxed.bluejam.NoteSequence;),Evolve(Lnet.parallaxed.bluejam.SequenceParameters;ILnet.parallaxed.bluejam.HeuristicCollection;),running,_mt,listenBufferSize,run(),generations(I),Evolve(Lnet.parallaxed.bluejam.SequenceParameters;I),population,listeners,waiting,getPopulationParameters(),_heuristics,_crossoverProbability,addListener(Lnet.parallaxed.bluejam.playback.Listener;),_maxBreedCycles,playedMemorySize,_matingPoolSize,generations,played,togglePause(),setPopulationCount(I),matingPoolSize(I),_sequenceParameters">
+    <children xsi:type="editmodel:CompartmentEditModel" size="144,341">
+      <children xsi:type="editmodel:AttributeEditModel" name="played" id="{UMLID=_41DnQ_gEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Population@played+net.parallaxed.bluejam/Evolve@ownedEnd|net.parallaxed.bluejam/Population#played}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="playedMemorySize" id="{UMLID=_4052RPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Evolve#playedMemorySize}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="listeners" id="{UMLID=_40dKUPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam.playback/Listener@listeners+net.parallaxed.bluejam/Evolve@ownedEnd|net.parallaxed.bluejam.playback/Listener#listeners}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="elites" id="{UMLID=_40m7UfgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/NoteSequence@elites+net.parallaxed.bluejam/Evolve@ownedEnd|net.parallaxed.bluejam/NoteSequence#elites}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="maxElites" id="{UMLID=_40wsUPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Evolve#maxElites}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="population" id="{UMLID=_41MxMPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Population@population+net.parallaxed.bluejam/Evolve@ownedEnd|net.parallaxed.bluejam/Population#population}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="running" id="{UMLID=_4052QPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Evolve#running}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="waiting" id="{UMLID=_40wsUfgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Evolve#waiting}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="listenBufferSize" id="{UMLID=_41DnQPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Evolve#listenBufferSize}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="generations" id="{UMLID=_41DnQvgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Evolve#generations}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="_maxBreedCycles" id="{UMLID=_4052QvgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Evolve#_maxBreedCycles}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="_crossoverProbability" id="{UMLID=_4052QfgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Evolve#_crossoverProbability}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="159,198">
+      <children xsi:type="editmodel:MethodEditModel" name="generations" id="{UMLID=_418_IfgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Evolve#generations()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="matingPoolSize" id="{UMLID=_41pdIPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Evolve#matingPoolSize(I)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addListener" id="{UMLID=_418_JPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Evolve#addListener(Lnet.parallaxed.bluejam.playback.Listener;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="feedback" id="{UMLID=_41WiM_gEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Evolve#feedback(ILnet.parallaxed.bluejam.NoteSequence;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="togglePause" id="{UMLID=_41gTNvgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Evolve#togglePause()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getPopulationParameters" id="{UMLID=_41gTM_gEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Evolve#getPopulationParameters()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="run" location="11,508" id="{UMLID=_41WiMvgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Evolve#run()}">
+        <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" id="{UMLID=_3w_6gPgKEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Evolve#run()->net.parallaxed.bluejam.evolution/TreeBreeder}" source="//@children.17/@children.1/@children.6" target="//@children.1" targetEnd="//@children.17/@children.1/@children.6/@sourceConnections.0/@children.2" label="//@children.17/@children.1/@children.6/@sourceConnections.0/@children.0" sourceEnd="//@children.17/@children.1/@children.6/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+          <children xsi:type="editmodel:WireLabelEditModel" location="518,421" size="0,14" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="5.0" distanceFromWire="23.0" anchorKind="MiddlePart"/>
+          <children xsi:type="editmodel:AssociationEndEditModel" location="-1,0" attachSource="true"/>
+          <children xsi:type="editmodel:AssociationEndEditModel" location="118,0"/>
+        </sourceConnections>
+      </children>
+      <children xsi:type="editmodel:MethodEditModel" name="setPopulationCount" id="{UMLID=_YSCH0c--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam/Evolve#setPopulationCount(I)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Evolve" id="{UMLID=_41pdI_gEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Evolve#Evolve(Lnet.parallaxed.bluejam.SequenceParameters;ILnet.parallaxed.bluejam.HeuristicCollection;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="{UMLID=_5CwsGvgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/HeuristicCollection@_heuristics+net.parallaxed.bluejam/Evolve@ownedEnd}" source="//@children.17" target="//@children.18" targetEnd="//@children.17/@sourceConnections.0/@children.2" label="//@children.17/@sourceConnections.0/@children.0" sourceEnd="//@children.17/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" location="433,101" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,151" id="{UMLID=_5CwsG_gEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/HeuristicCollection@_heuristics+net.parallaxed.bluejam/Evolve@ownedEnd|net.parallaxed.bluejam/Evolve#ownedEnd}" attachSource="true" roleLabel="//@children.17/@sourceConnections.0/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="+ ownedEnd" foregroundRGB="255,255,255" location="490,178" size="61,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="_heuristics" location="172,24" id="{UMLID=_40wsVPgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/HeuristicCollection@_heuristics+net.parallaxed.bluejam/Evolve@ownedEnd|net.parallaxed.bluejam/HeuristicCollection#_heuristics}" multiplicityLabel="//@children.17/@sourceConnections.0/@children.2/@children.1" roleLabel="//@children.17/@sourceConnections.0/@children.2/@children.0" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="- _heuristics" location="295,23" size="60,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="295,51" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="{UMLID=_5CwsEvgEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Population@played+net.parallaxed.bluejam/Evolve@ownedEnd}" source="//@children.17" target="//@children.19" targetEnd="//@children.17/@sourceConnections.1/@children.2" label="//@children.17/@sourceConnections.1/@children.0" sourceEnd="//@children.17/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" location="415,256" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="0,272" id="{UMLID=_5CwsE_gEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Population@played+net.parallaxed.bluejam/Evolve@ownedEnd|net.parallaxed.bluejam/Evolve#ownedEnd}" attachSource="true" roleLabel="//@children.17/@sourceConnections.1/@children.1/@children.1" flags="1">
+        <children xsi:type="editmodel:QualifierAttributeEditModel" name="key" location="531,282" size="30,21" id="{UMLID=_41DnRPgEEdymusjNjMXN1A,JavaID=}"/>
+        <children xsi:type="editmodel:LabelEditModel" name="+ ownedEnd" foregroundRGB="255,255,255" location="463,299" size="61,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="played" location="159,44" id="{UMLID=_41DnQ_gEEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Population@played+net.parallaxed.bluejam/Evolve@ownedEnd|net.parallaxed.bluejam/Population#played}" multiplicityLabel="//@children.17/@sourceConnections.1/@children.2/@children.1" roleLabel="//@children.17/@sourceConnections.1/@children.2/@children.0" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="- played" location="287,213" size="39,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="287,241" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" id="{UMLID=_ymOVYPgjEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Evolve->net.parallaxed.bluejam.evolution/IndividualSelector}" source="//@children.17" target="//@children.14" targetEnd="//@children.17/@sourceConnections.2/@children.2" label="//@children.17/@sourceConnections.2/@children.0" sourceEnd="//@children.17/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" location="661,500" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="93,445" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="71,0"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="1" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.19/@sourceConnections.0 //@children.17/@sourceConnections.0" name="HeuristicCollection" location="114,20" size="174,146" stereotype="" id="{UMLID=_XAEwsM--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam/HeuristicCollection}" packageIndication="1" runTimeClassModel="net.parallaxed.bluejam.HeuristicCollection.SELECTION_TYPE,getHeuristic(Ljava.lang.String;),_index,_byName,HeuristicCollection(),getRandomHeuristic(),loadHeuristics(Ljava.lang.String;),_mt,selectHeuristic(),getEvenHeuristic(),serialVersionUID,MODE,add(Lnet.parallaxed.bluejam.Heuristic;Ljava.lang.String;),add(Lnet.parallaxed.bluejam.Heuristic;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="109,36"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="136,144"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="153,89">
+      <children xsi:type="editmodel:EnumerationEditModel" name="SELECTION_TYPE" size="153,87" stereotype="enumeration" id="{UMLID=_XAhcoc--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam/HeuristicCollection$SELECTION_TYPE}" packageIndication="1" runTimeClassModel="EVEN%,RANDOM%">
+        <children xsi:type="editmodel:CompartmentEditModel" size="74,36">
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="RANDOM" id="{UMLID=_XEjBAc--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam/HeuristicCollection$SELECTION_TYPE#RANDOM%}"/>
+          <children xsi:type="editmodel:EnumerationLiteralEditModel" name="EVEN" location="10,58" id="{UMLID=_XEjBAM--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam/HeuristicCollection$SELECTION_TYPE#EVEN%}"/>
+        </children>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="1"/>
+      </children>
+    </children>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="1"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.17/@sourceConnections.1 //@children.1/@sourceConnections.0" name="Population" location="121,190" size="159,404" stereotype="" id="{UMLID=_W9iaEs--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam/Population}" packageIndication="1" runTimeClassModel="getParameters(),_populationSize,getIndividual(I),Population(Lnet.parallaxed.bluejam.SequenceParameters;I),_mt,E_SEQUENCE_PARAMETERS,heuristics,getEmptySlots(),buildHeuristic(),populationSize(),Population(Lnet.parallaxed.bluejam.SequenceParameters;ILnet.parallaxed.bluejam.HeuristicCollection;),addIndividual(Lnet.parallaxed.bluejam.Individual;),addIndividuals(Lnet.parallaxed.bluejam.Individual;),Population(Lnet.parallaxed.bluejam.SequenceParameters;),initialize(),params,populous,getFittestIndividual(),memberCount,_changed,getEmptySlot(),getRandomIndividual(),evolve(),addHeuristic(Lnet.parallaxed.bluejam.Heuristic;),E_SEQUENCE_PARAMETERS_MISSING,setParameter(Ljava.lang.String;Ljava.lang.Object;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="217,182">
+      <children xsi:type="editmodel:AttributeEditModel" name="memberCount" id="{UMLID=_X38z4s--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam/Population#memberCount}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="populous" id="{UMLID=_X3zp8c--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam/Individual@populous+net.parallaxed.bluejam/Population@_population|net.parallaxed.bluejam/Individual#populous}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="params" id="{UMLID=_X3zp9c--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam/PopulationParameters@params+net.parallaxed.bluejam/Population@ownedEnd|net.parallaxed.bluejam/PopulationParameters#params}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="heuristics" id="{UMLID=_X38z4c--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam/HeuristicCollection@heuristics+net.parallaxed.bluejam/Population@ownedEnd|net.parallaxed.bluejam/HeuristicCollection#heuristics}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="138,306">
+      <children xsi:type="editmodel:MethodEditModel" name="populationSize" id="{UMLID=_bhN1lfgLEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Population#populationSize()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Population" id="{UMLID=_X4jQ0s--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam/Population#Population(Lnet.parallaxed.bluejam.SequenceParameters;)}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addHeuristic" location="13,299" id="{UMLID=_X4Gk4M--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam/Population#addHeuristic(Lnet.parallaxed.bluejam.Heuristic;)}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="initialize" id="{UMLID=_X4Gk5c--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam/Population#initialize()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getIndividual" id="{UMLID=_bhgwgvgLEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Population#getIndividual(I)}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRandomIndividual" id="{UMLID=_X4QV5c--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam/Population#getRandomIndividual()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addIndividuals" id="{UMLID=_bhqhhPgLEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Population#addIndividuals(Lnet.parallaxed.bluejam.Individual;)}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="addIndividual" id="{UMLID=_X4Gk5s--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam/Population#addIndividual(Lnet.parallaxed.bluejam.Individual;)}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getEmptySlots" id="{UMLID=_bhqhgfgLEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Population#getEmptySlots()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getEmptySlot" id="{UMLID=_bh0SgvgLEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Population#getEmptySlot()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFittestIndividual" id="{UMLID=_bhN1kvgLEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Population#getFittestIndividual()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="evolve" id="{UMLID=_X4Zf0c--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam/Population#evolve()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="buildHeuristic" id="{UMLID=_X4sawM--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam/Population#buildHeuristic()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getParameters" id="{UMLID=_X38z48--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam/Population#getParameters()}" isAssociationMemeber="true"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setParameter" id="{UMLID=_bh9ccfgLEdymusjNjMXN1A,JavaID=net.parallaxed.bluejam/Population#setParameter(Ljava.lang.String;Ljava.lang.Object;)}" isAssociationMemeber="true"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" name="Population chooses heuristics for individuals" size="2,1" autoLocated="true" id="{UMLID=_X5S3ss--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam/Population->net.parallaxed.bluejam/HeuristicCollection}" source="//@children.19" target="//@children.18" targetEnd="//@children.19/@sourceConnections.0/@children.2" label="//@children.19/@sourceConnections.0/@children.0" sourceEnd="//@children.19/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" name="Population chooses heuristics for individuals" foregroundRGB="255,255,255" location="221,160" size="214,28" fontInfo="Arial-8-0" automaticRelocationAllowed="false" locationOnWireFromSource="4.0" distanceFromWire="-128.0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="79,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="86,146"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" id="{UMLID=_qG1icPjMEdy4iJtsDAHRng,JavaID=net.parallaxed.bluejam/Population->net.parallaxed.bluejam.evolution/NoteSequenceInitializer}" source="//@children.19" target="//@children.2" targetEnd="//@children.19/@sourceConnections.1/@children.1" label="//@children.19/@sourceConnections.1/@children.2" sourceEnd="//@children.19/@sourceConnections.1/@children.0" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,189" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="96,0"/>
+      <children xsi:type="editmodel:WireLabelEditModel" location="96,501" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" packageIndication="1" showMethods="true" showAttributes="true" showLiterals="true"/>
+  </children>
+  <children xsi:type="editmodel:LabelObjectEditModel" name="TreeBreeder breeds new populations" location="287,472" size="181,14" fontInfo="Arial-8-0"/>
+  <children xsi:type="editmodel:LabelObjectEditModel" name="Alternative selection method" location="1097,340" size="136,14" fontInfo="Arial-8-0"/>
+  <children xsi:type="editmodel:LabelObjectEditModel" name="Alternative initialization method" location="386,980" size="147,14" fontInfo="Arial-8-0"/>
+  <children xsi:type="editmodel:CommentEditModel" foregroundRGB="0,0,91" location="580,874" size="246,94" fontInfo="Arial-8-0" Comment="Interfaces can be implemented to create new &#xD;&#xA;algorithms for selection and evaluation.&#xD;&#xA;To use other implementations, define an enum&#xD;&#xA;constant for them in SelectionType or &#xD;&#xA;InitializationType, then set that method to&#xD;&#xA;be used in PopulationParameters"/>
+  <children xsi:type="editmodel:LabelObjectEditModel" name="Randomly selects a fitness method to use" location="520,1074" size="201,14" fontInfo="Arial-8-0"/>
+  <children xsi:type="editmodel:LabelObjectEditModel" name="Uses all three evaluation methods in different stages" location="834,220" size="253,14" fontInfo="Arial-8-0"/>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=3" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showMethods="true" showAttributes="true" showLiterlas="true" showInnerEntity="true"/>
+</editmodel:ClassDiagramEditModel>

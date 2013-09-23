@@ -1,0 +1,48 @@
+#N canvas 607 237 635 569 10;
+#X obj 78 174 pdj net.parallaxed.bluejam.pd.Configure;
+#X floatatom 193 99 5 0 127 2 RootPitch-(MIDI-Number) - -;
+#X obj 78 94 bng 15 250 50 0 empty empty Load/Start/Stop 0 -6 0 10
+-262144 -1 -1;
+#X floatatom 124 222 5 1 127 0 - - -;
+#X obj 78 300 noteout;
+#X obj 78 258 makenote 100 100;
+#X text 112 203 velocity;
+#X floatatom 259 98 5 1 240 0 BPM - -;
+#X obj 413 148 bendin;
+#X text 185 257 duration;
+#X floatatom 414 49 5 25 250 2 PopulationSize null -;
+#X floatatom 414 121 5 0 1 2 HeuristicSelectionType - -;
+#X text 476 119 RANDOM = 0 EVEN = 1;
+#X text 479 46 25 < x < 250;
+#X text 70 1 BlueJam;
+#X obj 327 175 bng 15 250 50 0 empty empty Reload -2 25 0 10 -262144
+-1 -1;
+#X floatatom 413 86 5 1 100 2 Generations - -;
+#X floatatom 413 169 5 0 0 0 - - -;
+#X text 467 156 FEEDBACK CHANNEL;
+#X floatatom 232 210 5 0 0 3 Generations_Remaining - -;
+#N canvas 0 0 450 300 graph1 0;
+#X coords 0 1 100 -1 180 50 1;
+#X restore 404 141 graph;
+#X text 75 358 Altered parameters will be updated every generation.
+Hit reload to start fresh with new parameters.;
+#X text 76 341 USAGE :: Click the loadbang twice to start.;
+#X text 76 396 NOTE :: Make sure all .heuristic and .m files are present
+in .../exrta/bluejam/config/ under the working directory (check the
+main PD window to see where your working directory is- e.g. c:/pd/)
+;
+#X connect 0 0 5 0;
+#X connect 0 1 5 2;
+#X connect 0 2 19 0;
+#X connect 1 0 0 1;
+#X connect 2 0 0 0;
+#X connect 3 0 5 1;
+#X connect 5 0 4 0;
+#X connect 5 1 4 1;
+#X connect 7 0 0 2;
+#X connect 8 0 17 0;
+#X connect 8 0 0 6;
+#X connect 10 0 0 3;
+#X connect 11 0 0 5;
+#X connect 15 0 0 7;
+#X connect 16 0 0 4;

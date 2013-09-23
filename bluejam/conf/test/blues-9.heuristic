@@ -1,0 +1,55 @@
+# HEURISTIC-9 (Blues)
+#
+# Copy of 7 (with alterations).
+
+# version number, do not alter.  
+v(1)
+
+# tree definition - 2 bars
+
+
+
+i(17)r(SEMIQUAVER)s(0,16)p(R,0)m(2)re(1)o(4);
+
+i(14)r(QUAVER)s(0)p(R,5)m(3)re(0)o(4);
+i(15)r(QUAVER)s(0)p(R,3)m(3)re(0)o(4);
+
+
+
+i(1)r(QUAVER)s(35,2)p(R,3)m(2)re(0)o(4);
+i(2)r(QUAVER)s(65,1)p(R,5)m(2)re(0)o(4);
+
+i(3)r(QUAVER)s(35,4)p(R,6)m(3)re(0)o(4);
+i(4)r(QUAVER)s(65,3)p(R,7)m(3)re(0)o(4);
+
+i(5)r(QUAVER)s(50,6)p(R,10)m(1)re(0)o(4);
+i(6)r(CROTCHET)s(50,5)p(R,0)m(2)re(0)o(5);
+i(0)r(QUAVER)s(0)p(R,0)m(3)re(0)o(4);
+
+# 4 beats above
+
+i(100)r(CROTCHET)s(50,101)p(R,0)m(3)re(0)o(5);
+i(101)r(QUAVER)s(50,100)p(R,10)m(3)re(0)o(4);
+
+i(103)r(CROTCHET)s(50,103)p(R,0)m(3)re(0)o(5);
+i(104)r(QUAVER)s(50,104)p(R,10)m(3)re(0)o(4);
+
+i(10)r(QUAVER)s(0)p(R,7)m(2)re(1)o(4);
+
+i(12)r(SEMIQUAVER)s(0)p(R,6)m(1)re(0)o(4);
+i(11)r(SEMIQUAVER)s(0)p(R,5)m(1)re(0)o(4);
+
+i(16)r(CROTCHET)s(100,17)p(R,0)m(2)re(0)o(4);
+
+# 3 beats above
+
+i(24)r(CROTCHET)s(0)p(R,3)m(3)re(0)o(4);
+
+i(25)r(QUAVER)s(35,26)p(R,6)m(3)re(0)o(4);
+i(26)r(QUAVER)s(65,25)p(R,6)m(1)re(0)o(4);
+
+i(27)r(QUAVER)s(35,27)p(R,5)m(1)re(0)o(4);
+i(28)r(QUAVER)s(65,28)p(R,3)m(2)re(0)o(4);
+i(29)r(QUAVER)s(0)p(R,0)m(1)re(0)o(5);
+
+

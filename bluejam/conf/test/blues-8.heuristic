@@ -1,0 +1,48 @@
+# HEURISTIC-8 (Blues)
+
+# version number, do not alter.  
+v(1)
+
+# tree definition - 3 bars
+
+
+# 4 beats above
+
+i(8)r(SEMIQUAVER)s(0)p(R,0)m(3)re(1)o(5);
+i(100)r(SEMIQUAVER)s(100,101)p(R,0)m(3)re(0)o(5);
+i(101)r(QUAVER)s(0,100)p(R,10)m(3)re(0)o(4);
+
+i(9)r(QUAVER)s(35,10)p(R,10)m(3)re(0)o(4);
+i(10)r(QUAVER)s(65,9)p(R,7)m(3)re(0)o(4);
+
+i(11)r(SEMIQUAVER)s(0)p(R,5)m(0)re(0)o(4);
+i(12)r(SEMIQUAVER)s(0)p(R,6)m(0)re(0)o(4);
+i(13)r(SEMIQUAVER)s(0)p(R,7)m(0)re(0)o(4);
+
+i(14)r(QUAVER)s(0)p(R,5)m(3)re(0)o(4);
+i(15)r(QUAVER)s(0)p(R,3)m(0)re(0)o(4);
+
+i(16)r(CROTCHET)s(100,17)p(R,0)m(0)re(0)o(4);
+i(17)r(SEMIQUAVER)s(0,16)p(R,0)m(3)re(1)o(4);
+
+# 5 beats above
+
+i(18)r(QUAVER)s(0)p(R,3)m(2)re(0)o(4);
+
+i(20)r(QUAVER)s(100,21)p(R,10)m(3)re(0)o(3);
+i(21)r(SEMIQUAVER)s(0,20)p(R,0)m(3)re(0)o(4);
+i(22)r(CROTCHET)s(100,23)p(R,0)m(3)re(0)o(4);
+i(23)r(SEMIQUAVER)s(0,22)p(R,0)m(1)re(1)o(4);
+
+i(0)r(QUAVER)s(0)p(R,0)m(0)re(0)o(4);
+
+i(1)r(QUAVER)s(35,2)p(R,3)m(3)re(0)o(4);
+i(2)r(QUAVER)s(65,1)p(R,5)m(3)re(0)o(4);
+
+i(3)r(QUAVER)s(35,4)p(R,6)m(2)re(0)o(4);
+i(4)r(QUAVER)s(65,3)p(R,7)m(2)re(0)o(4);
+
+i(5)r(QUAVER)s(50,6)p(R,10)m(3)re(0)o(4);
+i(6)r(CROTCHET)s(50,5)p(R,0)m(3)re(0)o(5);
+
+

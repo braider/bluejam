@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="gui-i" foregroundRGB="255,255,255" id="{UMLID=_GW70Nc--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui}" metadata="uml2-1.0" initialized="true" tag="1000" key="323030373036323920626C75656A616D2F41646D696E6973747261746F72">
+  <children xsi:type="editmodel:InterfaceEditModel" name="MessageDisplay" location="50,646" size="141,41" id="{UMLID=_Nc-p0M--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/MessageDisplay}" runTimeClassModel="">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="SWTMenuExample" location="50,50" size="219,546" stereotype="" id="{UMLID=_NtX2QM--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/SWTMenuExample}" runTimeClassModel="display,fileMenuHeader,menuBar,net.parallaxed.bluejam.gui.SWTMenuExample.helpGetHelpItemListener,net.parallaxed.bluejam.gui.SWTMenuExample.fileSaveItemListener,fileMenu,net.parallaxed.bluejam.gui.SWTMenuExample.fileExitItemListener,fileSaveItem,main([Ljava.lang.String;),label,fileExitItem,helpMenu,helpMenuHeader,shell,SWTMenuExample(),helpGetHelpItem">
+    <children xsi:type="editmodel:CompartmentEditModel" size="110,198">
+      <children xsi:type="editmodel:AttributeEditModel" name="display" id="{UMLID=_Pbe95c--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/SWTMenuExample#display}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="shell" id="{UMLID=_Pb7p0M--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/SWTMenuExample#shell}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="menuBar" id="{UMLID=_Pbou4s--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/SWTMenuExample#menuBar}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fileMenu" id="{UMLID=_Pbyf5M--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/SWTMenuExample#fileMenu}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="helpMenu" id="{UMLID=_Pbyf4s--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/SWTMenuExample#helpMenu}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fileMenuHeader" id="{UMLID=_Pbou4c--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/SWTMenuExample#fileMenuHeader}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="helpMenuHeader" id="{UMLID=_Pbyf48--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/SWTMenuExample#helpMenuHeader}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fileExitItem" id="{UMLID=_Pbyf4c--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/SWTMenuExample#fileExitItem}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fileSaveItem" id="{UMLID=_OIV7AM--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/SWTMenuExample#fileSaveItem}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="helpGetHelpItem" id="{UMLID=_Pb7p0s--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/SWTMenuExample#helpGetHelpItem}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="label" id="{UMLID=_Pbou5M--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/SWTMenuExample#label}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="129,36">
+      <children xsi:type="editmodel:MethodEditModel" name="SWTMenuExample" id="{UMLID=_Pb7p08--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/SWTMenuExample#SWTMenuExample()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="{UMLID=_PcFa0M--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/SWTMenuExample#main([Ljava.lang.String;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="198,255">
+      <children xsi:type="editmodel:ClassEditModel" name="fileExitItemListener" size="170,83" stereotype="" id="{UMLID=_NtX2Qc--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/SWTMenuExample$fileExitItemListener}" runTimeClassModel="widgetSelected(Lorg.eclipse.swt.events.SelectionEvent;),widgetDefaultSelected(Lorg.eclipse.swt.events.SelectionEvent;)">
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="149,36">
+          <children xsi:type="editmodel:MethodEditModel" name="widgetSelected" id="{UMLID=_P3NQk8--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/SWTMenuExample$fileExitItemListener#widgetSelected(Lorg.eclipse.swt.events.SelectionEvent;)}"/>
+          <children xsi:type="editmodel:MethodEditModel" name="widgetDefaultSelected" id="{UMLID=_P3Dfkc--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/SWTMenuExample$fileExitItemListener#widgetDefaultSelected(Lorg.eclipse.swt.events.SelectionEvent;)}"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+      </children>
+      <children xsi:type="editmodel:ClassEditModel" name="fileSaveItemListener" size="171,83" stereotype="" id="{UMLID=_PdRtoc--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/SWTMenuExample$fileSaveItemListener}" runTimeClassModel="widgetSelected(Lorg.eclipse.swt.events.SelectionEvent;),widgetDefaultSelected(Lorg.eclipse.swt.events.SelectionEvent;)">
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="149,36">
+          <children xsi:type="editmodel:MethodEditModel" name="widgetSelected" id="{UMLID=_P4ZjY8--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/SWTMenuExample$fileSaveItemListener#widgetSelected(Lorg.eclipse.swt.events.SelectionEvent;)}"/>
+          <children xsi:type="editmodel:MethodEditModel" name="widgetDefaultSelected" id="{UMLID=_P4ZjYM--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/SWTMenuExample$fileSaveItemListener#widgetDefaultSelected(Lorg.eclipse.swt.events.SelectionEvent;)}"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+      </children>
+      <children xsi:type="editmodel:ClassEditModel" name="helpGetHelpItemListener" size="198,83" stereotype="" id="{UMLID=_PdbeoM--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/SWTMenuExample$helpGetHelpItemListener}" runTimeClassModel="widgetSelected(Lorg.eclipse.swt.events.SelectionEvent;),widgetDefaultSelected(Lorg.eclipse.swt.events.SelectionEvent;)">
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <children xsi:type="editmodel:CompartmentEditModel" size="149,36">
+          <children xsi:type="editmodel:MethodEditModel" name="widgetSelected" id="{UMLID=_P5SUMc--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/SWTMenuExample$helpGetHelpItemListener#widgetSelected(Lorg.eclipse.swt.events.SelectionEvent;)}"/>
+          <children xsi:type="editmodel:MethodEditModel" name="widgetDefaultSelected" id="{UMLID=_P5cFMs--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/SWTMenuExample$helpGetHelpItemListener#widgetDefaultSelected(Lorg.eclipse.swt.events.SelectionEvent;)}"/>
+        </children>
+        <children xsi:type="editmodel:CompartmentEditModel"/>
+        <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+      </children>
+    </children>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Snippet1" location="821,50" size="96,65" stereotype="" id="{UMLID=_P6VdEM--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/Snippet1}" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="62,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="{UMLID=_P6VdEc--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/Snippet1#main([Ljava.lang.String;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="BlueJam" location="319,50" size="160,137" stereotype="" id="{UMLID=_P83MoM--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/BlueJam}" runTimeClassModel="BlueJam(),configureShell(Lorg.eclipse.swt.widgets.Shell;),createContent(Lorg.eclipse.swt.widgets.Composite;),main([Ljava.lang.String;),createMenuManager()">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="139,90">
+      <children xsi:type="editmodel:MethodEditModel" name="BlueJam" id="{UMLID=_P9T4kM--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/BlueJam#BlueJam()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createMenuManager" id="{UMLID=_P9T4lc--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/BlueJam#createMenuManager()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="configureShell" id="{UMLID=_P9KuoM--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/BlueJam#configureShell(Lorg.eclipse.swt.widgets.Shell;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createContent" id="{UMLID=_P9nak8--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/BlueJam#createContent(Lorg.eclipse.swt.widgets.Composite;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="{UMLID=_P9T4kc--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/BlueJam#main([Ljava.lang.String;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Snippet6" location="675,50" size="96,65" stereotype="" id="{UMLID=_QA4xAM--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/Snippet6}" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="62,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="{UMLID=_QA4xAc--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/Snippet6#main([Ljava.lang.String;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="Snippet5" location="529,50" size="96,65" stereotype="" id="{UMLID=_QDuCkM--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/Snippet5}" runTimeClassModel="main([Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="62,18">
+      <children xsi:type="editmodel:MethodEditModel" name="main" id="{UMLID=_QDuCkc--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui/Snippet5#main([Ljava.lang.String;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" showStereotype="true" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" interactive="false" level="-1" showScope="InPackage" properties="wireOptions=1"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showMethods="true" showAttributes="true" showLiterlas="true" showInnerEntity="true"/>
+</editmodel:ClassDiagramEditModel>

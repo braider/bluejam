@@ -1,0 +1,28 @@
+# n  - number(i)
+# r  - rhythm()
+# s  - swing(int ratio, n partner)
+# p  - pitch(p), pitch(p,interval)
+# m  - mutable(value) (none=0, rhythm=1, pitch=2, all=3)
+# re - rest(bool)
+# o  - octave(int)
+
+# version number, do not alter.  
+v(1)
+
+# tree definition - 2 bars
+i(0)r(SEMIQUAVER)s(0)p(A)m(3)re(0)o(4);
+i(1)r(SEMIQUAVER)s(0)p(B)m(3)re(0)o(4);
+i(2)r(SEMIQUAVER)s(0)p(A)m(3)re(0)o(4);
+i(3)r(SEMIQUAVER)s(0)p(Cs)m(3)re(0)o(5);
+i(4)r(SEMIQUAVER)s(0)p(A)m(3)re(0)o(4);
+i(5)r(SEMIQUAVER)s(0)p(D)m(3)re(0)o(5);
+i(6)r(SEMIQUAVER)s(0)p(A)m(3)re(0)o(4);
+i(7)r(SEMIQUAVER)s(0)p(E)m(3)re(0)o(5);
+i(8)r(SEMIQUAVER)s(0)p(A)m(3)re(0)o(4);
+i(9)r(SEMIQUAVER)s(0)p(Fs)m(3)re(0)o(5);
+i(10)r(SEMIQUAVER)s(0)p(A)m(3)re(0)o(4);
+i(11)r(SEMIQUAVER)s(0)p(Gs)m(3)re(0)o(5);
+i(12)r(SEMIQUAVER)s(0)p(A)m(3)re(0)o(4);
+i(13)r(SEMIQUAVER)s(0)p(A)m(3)re(0)o(5);
+i(14)r(SEMIQUAVER)s(0)p(A)m(3)re(0)o(4);
+i(15)r(SEMIQUAVER)s(0)p(A)m(3)re(0)o(5);

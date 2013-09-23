@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<jardesc>
+    <jar path="C:/Documents and Settings/Administrator.SERAPH/My Documents/CO620/dist/bluejam.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/bluejam/default.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="false"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" manifestLocation="" manifestVersion="1.0" reuseManifest="false" saveManifest="false" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="true" exportOutputFolder="false">
+        <javaElement handleIdentifier="=bluejam/src"/>
+        <javaElement handleIdentifier="=ecj/&lt;ec.util{MersenneTwister.java"/>
+        <javaElement handleIdentifier="=ecj/&lt;ec.util{MersenneTwisterFast.java"/>
+        <folder path="/bluejam/config"/>
+        <folder path="/bluejam/patches"/>
+        <folder path="/bluejam/doc"/>
+    </selectedElements>
+</jardesc>

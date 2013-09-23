@@ -1,0 +1,11 @@
+ec.util
+net.parallaxed.bluejam
+net.parallaxed.bluejam.evolution
+net.parallaxed.bluejam.exceptions
+net.parallaxed.bluejam.grammar
+net.parallaxed.bluejam.gui
+net.parallaxed.bluejam.gui.actions
+net.parallaxed.bluejam.pd
+net.parallaxed.bluejam.playback
+net.parallaxed.bluejam.tests
+net.parallaxed.pd

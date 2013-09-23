@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry excluding="net/parallaxed/bluejam/MIDI.java" kind="src" path="src"/>
+	<classpathentry kind="lib" path="pdj/pdj.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/colt.jar"/>
+	<classpathentry kind="lib" path="lib/jung-1.7.6.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/ecj"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.jface_3.3.1.M20070910-0800b.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.jface.text_3.3.1.r331_v20070629.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.osgi_3.3.1.R33x_v20070828.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.text_3.3.0.v20070606-0010.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.equinox.common_3.3.0.v20070426.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.core.commands_3.3.0.I20070605-0010.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.core.runtime_3.3.100.v20070530.jar"/>
+	<classpathentry kind="lib" path="lib/junit-4.4.jar"/>
+	<classpathentry kind="lib" path="lib/swt.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.mylyn.zest.core_0.5.0.0.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.mylyn.zest.layouts_0.5.0.0.jar"/>
+	<classpathentry kind="lib" path="lib/org.eclipse.draw2d_3.2.100.200707131144.jar"/>
+	<classpathentry kind="lib" path="lib/texdoclet.jar"/>
+	<classpathentry kind="lib" path="lib/tools.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

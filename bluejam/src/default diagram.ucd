@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="default diagram" foregroundRGB="255,255,255" id="{UMLID=_GPV-cM--EdywsPAlzSc5Cw,JavaID=.}" metadata="uml2-1.0" initialized="true" tag="1000" key="323030373036323920626C75656A616D2F41646D696E6973747261746F72">
+  <children xsi:type="editmodel:PackageEditModel" name="net.parallaxed.bluejam.pd" location="361,640" size="208,156" id="{UMLID=_GW70NM--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.pd}">
+    <packagePreferences xsi:type="editmodel:UMLClassDiagramPackagePreference" showStereotype="true"/>
+  </children>
+  <children xsi:type="editmodel:PackageEditModel" name="net.parallaxed.bluejam.gui.actions" location="50,640" size="261,195" id="{UMLID=_GW70Ns--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui.actions}">
+    <packagePreferences xsi:type="editmodel:UMLClassDiagramPackagePreference" showStereotype="true"/>
+  </children>
+  <children xsi:type="editmodel:PackageEditModel" targetConnections="//@children.4/@sourceConnections.0" name="net.parallaxed.bluejam" location="50,50" size="188,141" id="{UMLID=_GW70M8--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam}">
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" id="{UMLID=_IILvYM--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam->net.parallaxed.bluejam.exceptions}" source="//@children.2" target="//@children.4" targetEnd="//@children.2/@sourceConnections.0/@children.2" label="//@children.2/@sourceConnections.0/@children.0" sourceEnd="//@children.2/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" location="259,188" size="87,28" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="168,141" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel"/>
+    </sourceConnections>
+    <packagePreferences xsi:type="editmodel:UMLClassDiagramPackagePreference" showStereotype="true"/>
+  </children>
+  <children xsi:type="editmodel:PackageEditModel" targetConnections="//@children.4/@sourceConnections.1" name="net.parallaxed.bluejam.gui" location="709,431" size="212,159" id="{UMLID=_GW70Nc--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.gui}">
+    <packagePreferences xsi:type="editmodel:UMLClassDiagramPackagePreference" showStereotype="true"/>
+  </children>
+  <children xsi:type="editmodel:PackageEditModel" targetConnections="//@children.2/@sourceConnections.0" name="net.parallaxed.bluejam.exceptions" location="379,241" size="261,195" id="{UMLID=_GXFlMM--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.exceptions}">
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_INtIkM--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.exceptions->net.parallaxed.bluejam}" source="//@children.4" target="//@children.2" targetEnd="//@children.4/@sourceConnections.0/@children.2" label="//@children.4/@sourceConnections.0/@children.0" sourceEnd="//@children.4/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" location="265,223" size="87,28" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="178,141"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_IOADgc--EdywsPAlzSc5Cw,JavaID=net.parallaxed.bluejam.exceptions->net.parallaxed.bluejam.gui}" source="//@children.4" target="//@children.3" targetEnd="//@children.4/@sourceConnections.1/@children.2" label="//@children.4/@sourceConnections.1/@children.0" sourceEnd="//@children.4/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" location="640,424" size="122,28" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="251,195" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10"/>
+    </sourceConnections>
+    <packagePreferences xsi:type="editmodel:UMLClassDiagramPackagePreference" showStereotype="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=4"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="10,10" gridOrigin="0,0" rulerUnit="pixel">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showMethods="true" showAttributes="true" showLiterlas="true" showInnerEntity="true"/>
+</editmodel:ClassDiagramEditModel>

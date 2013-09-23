@@ -1,0 +1,45 @@
+# n  - number(i)
+# r  - rhythm()
+# s  - swing(int ratio, n partner)
+# p  - pitch(p), pitch(p,interval)
+# m  - mutable(value) (none=0, rhythm=1, pitch=2, all=3)
+# re - rest(bool)
+# o  - octave(int)
+
+# version number, do not alter.  
+v(1)
+
+# tree definition - 4 bars
+i(0)r(QUAVER)s(0)p(C)m(3)re(0)o(6);
+i(1)r(QUAVER)s(0)p(D)m(3)re(0)o(6);
+i(2)r(QUAVER)s(0)p(E)m(3)re(0)o(6);
+i(3)r(QUAVER)s(0)p(F)m(3)re(0)o(6);
+i(4)r(QUAVER)s(0)p(G)m(3)re(0)o(6);
+i(5)r(QUAVER)s(0)p(A)m(3)re(0)o(6);
+i(6)r(QUAVER)s(0)p(B)m(3)re(0)o(6);
+i(7)r(QUAVER)s(0)p(C)m(3)re(0)o(5);
+i(8)r(QUAVER)s(0)p(D)m(3)re(0)o(5);
+i(9)r(QUAVER)s(0)p(E)m(3)re(0)o(5);
+i(10)r(QUAVER)s(0)p(F)m(3)re(0)o(5);
+i(11)r(QUAVER)s(0)p(G)m(3)re(0)o(5);
+i(12)r(QUAVER)s(0)p(A)m(3)re(0)o(5);
+i(13)r(QUAVER)s(0)p(B)m(3)re(0)o(5);
+i(14)r(QUAVER)s(0)p(C)m(3)re(0)o(4);
+i(15)r(QUAVER)s(0)p(D)m(3)re(0)o(4);
+i(16)r(QUAVER)s(0)p(C)m(3)re(0)o(6);
+i(17)r(QUAVER)s(0)p(D)m(3)re(0)o(6);
+i(18)r(QUAVER)s(0)p(E)m(3)re(0)o(6);
+i(19)r(QUAVER)s(0)p(F)m(3)re(0)o(6);
+i(20)r(QUAVER)s(0)p(G)m(3)re(0)o(6);
+i(21)r(QUAVER)s(0)p(A)m(3)re(0)o(6);
+i(22)r(QUAVER)s(0)p(B)m(3)re(0)o(6);
+i(23)r(QUAVER)s(0)p(C)m(3)re(0)o(6);
+i(24)r(QUAVER)s(0)p(D)m(3)re(0)o(5);
+i(25)r(QUAVER)s(0)p(E)m(3)re(0)o(5);
+i(26)r(QUAVER)s(0)p(F)m(3)re(0)o(5);
+i(27)r(QUAVER)s(0)p(G)m(3)re(0)o(5);
+i(28)r(QUAVER)s(0)p(A)m(3)re(0)o(5);
+i(29)r(QUAVER)s(0)p(B)m(3)re(0)o(5);
+i(30)r(QUAVER)s(0)p(C)m(3)re(0)o(4);
+i(31)r(QUAVER)s(0)p(D)m(3)re(0)o(4);
+

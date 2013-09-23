@@ -1,0 +1,23 @@
+#N canvas 693 94 466 316 12;
+#X floatatom 248 108 5 0 0 0 - - -;
+#X obj 185 108 bng 15 250 50 0 empty empty empty 0 -6 0 10 -262144
+-1 -1;
+#X floatatom 204 198 5 0 0 0 - - -;
+#X floatatom 260 198 5 0 0 0 - - -;
+#X obj 185 268 noteout;
+#X obj 185 226 makenote 100 100;
+#X text 25 18 MIDI Metronome;
+#X text 27 40 A simple MIDI Metronome \, plays A(440) every beat using
+a PDJ based clock. Click bang to start.;
+#X text 291 109 BPM;
+#X text 192 179 velocity;
+#X text 256 179 duration;
+#X text 157 83 BANG (on/off);
+#X obj 185 156 pdj net.parallaxed.pd.PDHello;
+#X connect 0 0 12 1;
+#X connect 1 0 12 0;
+#X connect 2 0 5 1;
+#X connect 3 0 5 2;
+#X connect 5 0 4 0;
+#X connect 5 1 4 1;
+#X connect 12 0 5 0;

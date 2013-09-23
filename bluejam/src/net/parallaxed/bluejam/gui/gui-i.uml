@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="ASCII"?>
+<xmi:XMI xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:JavaProfile_1="http:///_aZXakH6MEdmbwasWWc4yvw.profile.uml2" xmlns:Omondo_1="http:///_zrN_0SUoEdmNXYQzyImvfA.profile.uml2" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xsi:schemaLocation="http:///_aZXakH6MEdmbwasWWc4yvw.profile.uml2 platform:/plugin/com.omondo.uml.core/profiles/Java.profile.uml#_aZhLlH6MEdmbwasWWc4yvw http:///_zrN_0SUoEdmNXYQzyImvfA.profile.uml2 platform:/plugin/com.omondo.uml.core/profiles/Omondo.profile.uml#_zrN_1iUoEdmNXYQzyImvfA">
+  <uml:Interface xmi:id="_Nc-p0M--EdywsPAlzSc5Cw" name="MessageDisplay"/>
+  <uml:Class xmi:id="_NtX2QM--EdywsPAlzSc5Cw" name="SWTMenuExample" clientDependency="_PdkokM--EdywsPAlzSc5Cw _PeBUgs--EdywsPAlzSc5Cw _PeUPcc--EdywsPAlzSc5Cw _Penxcc--EdywsPAlzSc5Cw _Pe6sYc--EdywsPAlzSc5Cw _PfNnUc--EdywsPAlzSc5Cw">
+    <ownedAttribute xmi:id="_OIV7AM--EdywsPAlzSc5Cw" name="fileSaveItem" visibility="package" type="_Pbe95M--EdywsPAlzSc5Cw"/>
+    <ownedAttribute xmi:id="_Pbe95c--EdywsPAlzSc5Cw" name="display" visibility="package" type="_Pbou4M--EdywsPAlzSc5Cw"/>
+    <ownedAttribute xmi:id="_Pbou4c--EdywsPAlzSc5Cw" name="fileMenuHeader" visibility="package" type="_Pbe95M--EdywsPAlzSc5Cw"/>
+    <ownedAttribute xmi:id="_Pbou4s--EdywsPAlzSc5Cw" name="menuBar" visibility="package" type="_Pbou48--EdywsPAlzSc5Cw"/>
+    <ownedAttribute xmi:id="_Pbou5M--EdywsPAlzSc5Cw" name="label" visibility="package" type="_Pbyf4M--EdywsPAlzSc5Cw"/>
+    <ownedAttribute xmi:id="_Pbyf4c--EdywsPAlzSc5Cw" name="fileExitItem" visibility="package" type="_Pbe95M--EdywsPAlzSc5Cw"/>
+    <ownedAttribute xmi:id="_Pbyf4s--EdywsPAlzSc5Cw" name="helpMenu" visibility="package" type="_Pbou48--EdywsPAlzSc5Cw"/>
+    <ownedAttribute xmi:id="_Pbyf48--EdywsPAlzSc5Cw" name="helpMenuHeader" visibility="package" type="_Pbe95M--EdywsPAlzSc5Cw"/>
+    <ownedAttribute xmi:id="_Pbyf5M--EdywsPAlzSc5Cw" name="fileMenu" visibility="package" type="_Pbou48--EdywsPAlzSc5Cw"/>
+    <ownedAttribute xmi:id="_Pb7p0M--EdywsPAlzSc5Cw" name="shell" visibility="package" type="_Pb7p0c--EdywsPAlzSc5Cw"/>
+    <ownedAttribute xmi:id="_Pb7p0s--EdywsPAlzSc5Cw" name="helpGetHelpItem" visibility="package" type="_Pbe95M--EdywsPAlzSc5Cw"/>
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_NtX2Qc--EdywsPAlzSc5Cw" name="fileExitItemListener" clientDependency="_P3DfkM--EdywsPAlzSc5Cw _P3Wags--EdywsPAlzSc5Cw">
+      <interfaceRealization xmi:id="_P3DfkM--EdywsPAlzSc5Cw" supplier="_P25ukc--EdywsPAlzSc5Cw" client="_NtX2Qc--EdywsPAlzSc5Cw" contract="_P25ukc--EdywsPAlzSc5Cw"/>
+      <ownedOperation xmi:id="_P3Dfkc--EdywsPAlzSc5Cw" name="widgetDefaultSelected" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_P3NQkc--EdywsPAlzSc5Cw" name="event" type="_P3NQkM--EdywsPAlzSc5Cw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_P3NQks--EdywsPAlzSc5Cw" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_P3NQk8--EdywsPAlzSc5Cw" name="widgetSelected" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_P3WagM--EdywsPAlzSc5Cw" name="event" type="_P3NQkM--EdywsPAlzSc5Cw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_P3Wagc--EdywsPAlzSc5Cw" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+    </nestedClassifier>
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_PdRtoc--EdywsPAlzSc5Cw" name="fileSaveItemListener" clientDependency="_P4PyYM--EdywsPAlzSc5Cw _P4itUs--EdywsPAlzSc5Cw">
+      <interfaceRealization xmi:id="_P4PyYM--EdywsPAlzSc5Cw" supplier="_P25ukc--EdywsPAlzSc5Cw" client="_PdRtoc--EdywsPAlzSc5Cw" contract="_P25ukc--EdywsPAlzSc5Cw"/>
+      <ownedOperation xmi:id="_P4ZjYM--EdywsPAlzSc5Cw" name="widgetDefaultSelected" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_P4ZjYc--EdywsPAlzSc5Cw" name="event" type="_P3NQkM--EdywsPAlzSc5Cw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_P4ZjYs--EdywsPAlzSc5Cw" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_P4ZjY8--EdywsPAlzSc5Cw" name="widgetSelected" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_P4itUM--EdywsPAlzSc5Cw" name="event" type="_P3NQkM--EdywsPAlzSc5Cw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_P4itUc--EdywsPAlzSc5Cw" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+    </nestedClassifier>
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_PdbeoM--EdywsPAlzSc5Cw" name="helpGetHelpItemListener" clientDependency="_P5SUMM--EdywsPAlzSc5Cw _P5l2MM--EdywsPAlzSc5Cw">
+      <interfaceRealization xmi:id="_P5SUMM--EdywsPAlzSc5Cw" supplier="_P25ukc--EdywsPAlzSc5Cw" client="_PdbeoM--EdywsPAlzSc5Cw" contract="_P25ukc--EdywsPAlzSc5Cw"/>
+      <ownedOperation xmi:id="_P5SUMc--EdywsPAlzSc5Cw" name="widgetSelected" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_P5cFMM--EdywsPAlzSc5Cw" name="event" type="_P3NQkM--EdywsPAlzSc5Cw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_P5cFMc--EdywsPAlzSc5Cw" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+      <ownedOperation xmi:id="_P5cFMs--EdywsPAlzSc5Cw" name="widgetDefaultSelected" visibility="public" concurrency="concurrent">
+        <ownedParameter xmi:id="_P5cFM8--EdywsPAlzSc5Cw" name="event" type="_P3NQkM--EdywsPAlzSc5Cw">
+          <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_P5cFNM--EdywsPAlzSc5Cw" value="1"/>
+        </ownedParameter>
+      </ownedOperation>
+    </nestedClassifier>
+    <ownedOperation xmi:id="_Pb7p08--EdywsPAlzSc5Cw" name="SWTMenuExample" visibility="public" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_PcFa0M--EdywsPAlzSc5Cw" name="main" visibility="public" isStatic="true" concurrency="concurrent">
+      <ownedParameter xmi:id="_PcPL0c--EdywsPAlzSc5Cw" name="args" type="_PcPL0M--EdywsPAlzSc5Cw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_PcPL0s--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+  </uml:Class>
+  <uml:Package xmi:id="_Pbe948--EdywsPAlzSc5Cw" name="widgets">
+    <packagedElement xmi:type="uml:Class" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_Pbe95M--EdywsPAlzSc5Cw"/>
+    <packagedElement xmi:type="uml:Class" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_Pbou4M--EdywsPAlzSc5Cw"/>
+    <packagedElement xmi:type="uml:Class" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_Pbou48--EdywsPAlzSc5Cw"/>
+    <packagedElement xmi:type="uml:Class" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_Pbyf4M--EdywsPAlzSc5Cw"/>
+    <packagedElement xmi:type="uml:Class" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_Pb7p0c--EdywsPAlzSc5Cw"/>
+    <packagedElement xmi:type="uml:Class" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_P9nalM--EdywsPAlzSc5Cw"/>
+    <packagedElement xmi:type="uml:Class" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_P9wkgs--EdywsPAlzSc5Cw"/>
+    <packagedElement xmi:type="uml:Class" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_QBCiAc--EdywsPAlzSc5Cw"/>
+    <packagedElement xmi:type="uml:Class" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_QSLVUM--EdywsPAlzSc5Cw"/>
+  </uml:Package>
+  <uml:Class xmi:id="_Pbe95M--EdywsPAlzSc5Cw" name="MenuItem"/>
+  <uml:Class xmi:id="_Pbou4M--EdywsPAlzSc5Cw" name="Display"/>
+  <uml:Class xmi:id="_Pbou48--EdywsPAlzSc5Cw" name="Menu"/>
+  <uml:Class xmi:id="_Pbyf4M--EdywsPAlzSc5Cw" name="Label"/>
+  <uml:Class xmi:id="_Pb7p0c--EdywsPAlzSc5Cw" name="Shell"/>
+  <uml:Class xmi:id="_PcPL0M--EdywsPAlzSc5Cw" name="String" isLeaf="true"/>
+  <uml:Package xmi:id="_P25ukM--EdywsPAlzSc5Cw" name="events">
+    <packagedElement xmi:type="uml:Interface" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_P25ukc--EdywsPAlzSc5Cw"/>
+    <packagedElement xmi:type="uml:Class" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_P3NQkM--EdywsPAlzSc5Cw"/>
+  </uml:Package>
+  <uml:Interface xmi:id="_P25ukc--EdywsPAlzSc5Cw" name="SelectionListener" isAbstract="true"/>
+  <uml:Class xmi:id="_P3NQkM--EdywsPAlzSc5Cw" name="SelectionEvent"/>
+  <uml:Class xmi:id="_P6VdEM--EdywsPAlzSc5Cw" name="Snippet1" clientDependency="_P6oYAM--EdywsPAlzSc5Cw _P7FD8s--EdywsPAlzSc5Cw _P7X-4c--EdywsPAlzSc5Cw _P7q50c--EdywsPAlzSc5Cw _P8Hlwc--EdywsPAlzSc5Cw">
+    <ownedOperation xmi:id="_P6VdEc--EdywsPAlzSc5Cw" name="main" visibility="public" isStatic="true" concurrency="concurrent">
+      <ownedParameter xmi:id="_P6enAM--EdywsPAlzSc5Cw" name="args" type="_PcPL0M--EdywsPAlzSc5Cw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_P6enAc--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+  </uml:Class>
+  <uml:Package xmi:id="_P6enBM--EdywsPAlzSc5Cw" name="resource">
+    <packagedElement xmi:type="uml:Class" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_P6enBc--EdywsPAlzSc5Cw"/>
+  </uml:Package>
+  <uml:Class xmi:id="_P6enBc--EdywsPAlzSc5Cw" name="FontRegistry"/>
+  <uml:Class xmi:id="_P83MoM--EdywsPAlzSc5Cw" name="BlueJam">
+    <clientDependency xmi:type="uml:Usage" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_P-DfcM--EdywsPAlzSc5Cw"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_P-NQcs--EdywsPAlzSc5Cw"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_P-p8YM--EdywsPAlzSc5Cw"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_P-ztYc--EdywsPAlzSc5Cw"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_P_GoUc--EdywsPAlzSc5Cw"/>
+    <clientDependency xmi:type="uml:Abstraction" href="platform:/resource/bluejam/bluejam.uml#_P_ZjQc--EdywsPAlzSc5Cw"/>
+    <clientDependency xmi:type="uml:Usage" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_P_2PMc--EdywsPAlzSc5Cw"/>
+    <generalization xmi:id="_P9A9oc--EdywsPAlzSc5Cw" general="_P9A9oM--EdywsPAlzSc5Cw"/>
+    <ownedOperation xmi:id="_P9KuoM--EdywsPAlzSc5Cw" name="configureShell" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_P9Kuoc--EdywsPAlzSc5Cw" name="shell" type="_Pb7p0c--EdywsPAlzSc5Cw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_P9Kuos--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_P9T4kM--EdywsPAlzSc5Cw" name="BlueJam" visibility="public" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_P9T4kc--EdywsPAlzSc5Cw" name="main" visibility="public" isStatic="true" concurrency="concurrent">
+      <ownedParameter xmi:id="_P9T4ks--EdywsPAlzSc5Cw" name="args" type="_PcPL0M--EdywsPAlzSc5Cw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_P9T4k8--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_P9T4lc--EdywsPAlzSc5Cw" name="createMenuManager" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_P9nakc--EdywsPAlzSc5Cw" type="_P9nakM--EdywsPAlzSc5Cw" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_P9naks--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_P9nak8--EdywsPAlzSc5Cw" name="createContent" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_P9wkgM--EdywsPAlzSc5Cw" name="parent" type="_P9nalM--EdywsPAlzSc5Cw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_P9wkgc--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_P96VgM--EdywsPAlzSc5Cw" type="_P9wkgs--EdywsPAlzSc5Cw" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_P96Vgc--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+  </uml:Class>
+  <uml:Package xmi:id="_P83Moc--EdywsPAlzSc5Cw" name="window">
+    <packagedElement xmi:type="uml:Class" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_P9A9oM--EdywsPAlzSc5Cw"/>
+    <packagedElement xmi:type="uml:Class" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_QQPboM--EdywsPAlzSc5Cw"/>
+  </uml:Package>
+  <uml:Class xmi:id="_P9A9oM--EdywsPAlzSc5Cw" name="ApplicationWindow" clientDependency="_QQYlks--EdywsPAlzSc5Cw">
+    <generalization xmi:id="_QQPboc--EdywsPAlzSc5Cw" general="_QQPboM--EdywsPAlzSc5Cw"/>
+    <ownedAttribute xmi:id="_QQsHkM--EdywsPAlzSc5Cw" name="seperator1" visibility="protected" type="_Pbyf4M--EdywsPAlzSc5Cw"/>
+    <ownedAttribute xmi:id="_QQsHkc--EdywsPAlzSc5Cw" name="operationInProgress" visibility="private">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:id="_QQ1RgM--EdywsPAlzSc5Cw" name="toolBarManager" visibility="private" type="_QQ1Rgc--EdywsPAlzSc5Cw"/>
+    <ownedAttribute xmi:id="_QQ1Rgs--EdywsPAlzSc5Cw" name="menuBarManager" visibility="private" type="_P9nakM--EdywsPAlzSc5Cw"/>
+    <ownedAttribute xmi:id="_QQ1Rg8--EdywsPAlzSc5Cw" name="coolBarManager" visibility="private" type="_QQ1RhM--EdywsPAlzSc5Cw"/>
+    <ownedAttribute xmi:id="_QQ1Rhc--EdywsPAlzSc5Cw" name="statusLineManager" visibility="private" type="_QQ_CgM--EdywsPAlzSc5Cw"/>
+    <interfaceRealization xmi:id="_QQYlks--EdywsPAlzSc5Cw" supplier="_QQYlkc--EdywsPAlzSc5Cw" client="_P9A9oM--EdywsPAlzSc5Cw" contract="_QQYlkc--EdywsPAlzSc5Cw"/>
+    <nestedClassifier xmi:type="uml:Class" xmi:id="_QUtE48--EdywsPAlzSc5Cw" name="ApplicationWindowLayout"/>
+    <ownedOperation xmi:id="_QQ_Cgc--EdywsPAlzSc5Cw" name="createMenuManager" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_QRIMcM--EdywsPAlzSc5Cw" type="_P9nakM--EdywsPAlzSc5Cw" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QRIMcc--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QRIMcs--EdywsPAlzSc5Cw" name="createCoolBarControl" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_QRR9cM--EdywsPAlzSc5Cw" name="composite" type="_P9nalM--EdywsPAlzSc5Cw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QRR9cc--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_QRR9cs--EdywsPAlzSc5Cw" type="_P9wkgs--EdywsPAlzSc5Cw" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QRR9c8--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QRR9dM--EdywsPAlzSc5Cw" name="getToolBarManager2" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_QRR9dc--EdywsPAlzSc5Cw" type="_QQ1Rgc--EdywsPAlzSc5Cw" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QRR9ds--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QRbucM--EdywsPAlzSc5Cw" name="createToolBarManager" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_QRbucc--EdywsPAlzSc5Cw" name="style">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QRbucs--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_QRbudM--EdywsPAlzSc5Cw" type="_QRbuc8--EdywsPAlzSc5Cw" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QRbudc--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QRbuds--EdywsPAlzSc5Cw" name="configureShell" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_QRk4YM--EdywsPAlzSc5Cw" name="shell" type="_Pb7p0c--EdywsPAlzSc5Cw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QRk4Yc--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QRk4Ys--EdywsPAlzSc5Cw" name="getSeperator1" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_QRk4Y8--EdywsPAlzSc5Cw" type="_Pbyf4M--EdywsPAlzSc5Cw" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QRupYM--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QRupYc--EdywsPAlzSc5Cw" name="createTrimWidgets" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_QRupYs--EdywsPAlzSc5Cw" name="shell" type="_Pb7p0c--EdywsPAlzSc5Cw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QRupY8--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QRupZM--EdywsPAlzSc5Cw" name="coolBarChildrenExist" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_QRupZc--EdywsPAlzSc5Cw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QR4aYM--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QR4aYc--EdywsPAlzSc5Cw" name="createToolBarControl" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_QR4aYs--EdywsPAlzSc5Cw" name="parent" type="_P9nalM--EdywsPAlzSc5Cw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QR4aY8--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_QR4aZM--EdywsPAlzSc5Cw" type="_P9wkgs--EdywsPAlzSc5Cw" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QSBkUM--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QSBkUc--EdywsPAlzSc5Cw" name="createStatusLine" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_QSBkUs--EdywsPAlzSc5Cw" name="shell" type="_Pb7p0c--EdywsPAlzSc5Cw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QSBkU8--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QSBkVM--EdywsPAlzSc5Cw" name="getLayout" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_QSLVUc--EdywsPAlzSc5Cw" type="_QSLVUM--EdywsPAlzSc5Cw" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QSLVUs--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QSLVU8--EdywsPAlzSc5Cw" name="createCoolBarManager" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_QSLVVM--EdywsPAlzSc5Cw" name="style">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QSLVVc--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_QSUfQM--EdywsPAlzSc5Cw" type="_QSLVVs--EdywsPAlzSc5Cw" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QSUfQc--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QSUfQs--EdywsPAlzSc5Cw" name="setStatus" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_QSUfQ8--EdywsPAlzSc5Cw" name="message" type="_PcPL0M--EdywsPAlzSc5Cw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QSUfRM--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QSUfRc--EdywsPAlzSc5Cw" name="createToolBarManager2" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_QSeQQM--EdywsPAlzSc5Cw" name="style">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QSeQQc--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_QSeQQs--EdywsPAlzSc5Cw" type="_QQ1Rgc--EdywsPAlzSc5Cw" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QSeQQ8--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QSeQRM--EdywsPAlzSc5Cw" name="close" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_QSeQRc--EdywsPAlzSc5Cw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QSoBQM--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QSoBQc--EdywsPAlzSc5Cw" name="showTopSeperator" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_QSoBQs--EdywsPAlzSc5Cw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QSoBQ8--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QSoBRM--EdywsPAlzSc5Cw" name="getFont" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_QSxLMs--EdywsPAlzSc5Cw" type="_QSxLMc--EdywsPAlzSc5Cw" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QSxLM8--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QSxLNM--EdywsPAlzSc5Cw" name="createStatusLineManager" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_QSxLNc--EdywsPAlzSc5Cw" type="_QQ_CgM--EdywsPAlzSc5Cw" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QS68MM--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QS68Mc--EdywsPAlzSc5Cw" name="addStatusLine" visibility="protected" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_QS68Ms--EdywsPAlzSc5Cw" name="addToolBar" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_QS68M8--EdywsPAlzSc5Cw" name="style">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QS68NM--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QS68Nc--EdywsPAlzSc5Cw" name="toolBarChildrenExist" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_QTEtMM--EdywsPAlzSc5Cw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QTEtMc--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QTEtMs--EdywsPAlzSc5Cw" name="getCoolBarControl" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_QTEtM8--EdywsPAlzSc5Cw" type="_P9wkgs--EdywsPAlzSc5Cw" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QTEtNM--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QTEtNc--EdywsPAlzSc5Cw" name="getStatusLineManager" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_QTN3IM--EdywsPAlzSc5Cw" type="_QQ_CgM--EdywsPAlzSc5Cw" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QTN3Ic--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QTN3Is--EdywsPAlzSc5Cw" name="getCoolBarManager2" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_QTN3I8--EdywsPAlzSc5Cw" type="_QQ1RhM--EdywsPAlzSc5Cw" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QTN3JM--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QTXoIM--EdywsPAlzSc5Cw" name="getMenuBarManager" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_QTXoIc--EdywsPAlzSc5Cw" type="_P9nakM--EdywsPAlzSc5Cw" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QTXoIs--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QTXoI8--EdywsPAlzSc5Cw" name="canHandleShellCloseEvent" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_QTXoJM--EdywsPAlzSc5Cw" direction="return">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QTgyEM--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QTgyEc--EdywsPAlzSc5Cw" name="getSymbolicFontName" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_QTgyEs--EdywsPAlzSc5Cw" type="_PcPL0M--EdywsPAlzSc5Cw" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QTgyE8--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QTgyFM--EdywsPAlzSc5Cw" name="getCoolBarManager" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_QTqjEM--EdywsPAlzSc5Cw" type="_QSLVVs--EdywsPAlzSc5Cw" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QTqjEc--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QTqjEs--EdywsPAlzSc5Cw" name="getToolBarManager" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_QTqjE8--EdywsPAlzSc5Cw" type="_QRbuc8--EdywsPAlzSc5Cw" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QTqjFM--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QTqjFc--EdywsPAlzSc5Cw" name="addMenuBar" visibility="protected" concurrency="concurrent"/>
+    <ownedOperation xmi:id="_QT0UEM--EdywsPAlzSc5Cw" name="run" visibility="public" concurrency="concurrent" raisedException="_QURAAc--EdywsPAlzSc5Cw _QURAAs--EdywsPAlzSc5Cw">
+      <ownedParameter xmi:id="_QT0UEc--EdywsPAlzSc5Cw" name="fork">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QT0UEs--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_QUHPAM--EdywsPAlzSc5Cw" name="cancelable">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QUHPAc--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_QUHPA8--EdywsPAlzSc5Cw" name="runnable" type="_QUHPAs--EdywsPAlzSc5Cw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QUHPBM--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QURAA8--EdywsPAlzSc5Cw" name="ApplicationWindow" visibility="public" concurrency="concurrent">
+      <ownedParameter xmi:id="_QUaJ8M--EdywsPAlzSc5Cw" name="parentShell" type="_Pb7p0c--EdywsPAlzSc5Cw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QUaJ8c--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QUaJ8s--EdywsPAlzSc5Cw" name="addCoolBar" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_QUaJ88--EdywsPAlzSc5Cw" name="style">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QUaJ9M--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QUj68M--EdywsPAlzSc5Cw" name="createCoolBarManager2" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_QUj68c--EdywsPAlzSc5Cw" name="style">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QUj68s--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+      <ownedParameter xmi:id="_QUj688--EdywsPAlzSc5Cw" type="_QQ1RhM--EdywsPAlzSc5Cw" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QUj69M--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+    <ownedOperation xmi:id="_QUtE4M--EdywsPAlzSc5Cw" name="getToolBarControl" visibility="protected" concurrency="concurrent">
+      <ownedParameter xmi:id="_QUtE4c--EdywsPAlzSc5Cw" type="_P9wkgs--EdywsPAlzSc5Cw" direction="return">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QUtE4s--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+  </uml:Class>
+  <uml:Package xmi:id="_P9dpkM--EdywsPAlzSc5Cw" name="action">
+    <packagedElement xmi:type="uml:Class" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_P9nakM--EdywsPAlzSc5Cw"/>
+    <packagedElement xmi:type="uml:Interface" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_QQ1Rgc--EdywsPAlzSc5Cw"/>
+    <packagedElement xmi:type="uml:Interface" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_QQ1RhM--EdywsPAlzSc5Cw"/>
+    <packagedElement xmi:type="uml:Class" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_QQ_CgM--EdywsPAlzSc5Cw"/>
+    <packagedElement xmi:type="uml:Class" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_QRbuc8--EdywsPAlzSc5Cw"/>
+    <packagedElement xmi:type="uml:Class" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_QSLVVs--EdywsPAlzSc5Cw"/>
+  </uml:Package>
+  <uml:Class xmi:id="_P9nakM--EdywsPAlzSc5Cw" name="MenuManager"/>
+  <uml:Class xmi:id="_P9nalM--EdywsPAlzSc5Cw" name="Composite"/>
+  <uml:Class xmi:id="_P9wkgs--EdywsPAlzSc5Cw" name="Control" isAbstract="true"/>
+  <uml:Class xmi:id="_QA4xAM--EdywsPAlzSc5Cw" name="Snippet6" clientDependency="_QBMTAs--EdywsPAlzSc5Cw _QBfN8c--EdywsPAlzSc5Cw _QByI4s--EdywsPAlzSc5Cw _QCFD0c--EdywsPAlzSc5Cw _QChvwc--EdywsPAlzSc5Cw _QC0qsc--EdywsPAlzSc5Cw _QDIMsc--EdywsPAlzSc5Cw">
+    <ownedOperation xmi:id="_QA4xAc--EdywsPAlzSc5Cw" name="main" visibility="public" isStatic="true" concurrency="concurrent">
+      <ownedParameter xmi:id="_QA4xAs--EdywsPAlzSc5Cw" name="args" type="_PcPL0M--EdywsPAlzSc5Cw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QA4xA8--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+  </uml:Class>
+  <uml:Class xmi:id="_QBCiAc--EdywsPAlzSc5Cw" name="Button"/>
+  <uml:Package xmi:id="_QBCiAs--EdywsPAlzSc5Cw" name="layout">
+    <packagedElement xmi:type="uml:Class" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_QBMTAM--EdywsPAlzSc5Cw"/>
+    <packagedElement xmi:type="uml:Class" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_QD3zkc--EdywsPAlzSc5Cw"/>
+  </uml:Package>
+  <uml:Class xmi:id="_QBMTAM--EdywsPAlzSc5Cw" name="GridLayout" isLeaf="true"/>
+  <uml:Class xmi:id="_QBMTAc--EdywsPAlzSc5Cw" name="StringBuilder" isLeaf="true"/>
+  <uml:Class xmi:id="_QDuCkM--EdywsPAlzSc5Cw" name="Snippet5" clientDependency="_QEA9gc--EdywsPAlzSc5Cw _QEUfgc--EdywsPAlzSc5Cw _QExLcs--EdywsPAlzSc5Cw _QFEGYc--EdywsPAlzSc5Cw _QFXBUc--EdywsPAlzSc5Cw _QFp8Qc--EdywsPAlzSc5Cw">
+    <ownedOperation xmi:id="_QDuCkc--EdywsPAlzSc5Cw" name="main" visibility="public" isStatic="true" concurrency="concurrent">
+      <ownedParameter xmi:id="_QDuCks--EdywsPAlzSc5Cw" name="args" type="_PcPL0M--EdywsPAlzSc5Cw">
+        <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_QDuCk8--EdywsPAlzSc5Cw" value="1"/>
+      </ownedParameter>
+    </ownedOperation>
+  </uml:Class>
+  <uml:Class xmi:id="_QD3zkc--EdywsPAlzSc5Cw" name="FillLayout" isLeaf="true"/>
+  <uml:Package xmi:id="_QD3zks--EdywsPAlzSc5Cw" name="custom">
+    <packagedElement xmi:type="uml:Class" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_QEA9gM--EdywsPAlzSc5Cw"/>
+  </uml:Package>
+  <uml:Class xmi:id="_QEA9gM--EdywsPAlzSc5Cw" name="ScrolledComposite"/>
+  <uml:Class xmi:id="_QQPboM--EdywsPAlzSc5Cw" name="Window" isAbstract="true"/>
+  <uml:Package xmi:id="_QQYlkM--EdywsPAlzSc5Cw" name="operation">
+    <packagedElement xmi:type="uml:Interface" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_QQYlkc--EdywsPAlzSc5Cw"/>
+    <packagedElement xmi:type="uml:Interface" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_QUHPAs--EdywsPAlzSc5Cw"/>
+  </uml:Package>
+  <uml:Interface xmi:id="_QQYlkc--EdywsPAlzSc5Cw" name="IRunnableContext" isAbstract="true"/>
+  <uml:Interface xmi:id="_QQ1Rgc--EdywsPAlzSc5Cw" name="IToolBarManager" isAbstract="true"/>
+  <uml:Interface xmi:id="_QQ1RhM--EdywsPAlzSc5Cw" name="ICoolBarManager" isAbstract="true"/>
+  <uml:Class xmi:id="_QQ_CgM--EdywsPAlzSc5Cw" name="StatusLineManager"/>
+  <uml:Class xmi:id="_QRbuc8--EdywsPAlzSc5Cw" name="ToolBarManager"/>
+  <uml:Class xmi:id="_QSLVUM--EdywsPAlzSc5Cw" name="Layout" isAbstract="true"/>
+  <uml:Class xmi:id="_QSLVVs--EdywsPAlzSc5Cw" name="CoolBarManager"/>
+  <uml:Package xmi:id="_QSxLMM--EdywsPAlzSc5Cw" name="graphics">
+    <packagedElement xmi:type="uml:Class" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_QSxLMc--EdywsPAlzSc5Cw"/>
+  </uml:Package>
+  <uml:Class xmi:id="_QSxLMc--EdywsPAlzSc5Cw" name="Font" isLeaf="true"/>
+  <uml:Interface xmi:id="_QUHPAs--EdywsPAlzSc5Cw" name="IRunnableWithProgress" isAbstract="true"/>
+  <uml:Class xmi:id="_QURAAc--EdywsPAlzSc5Cw" name="InvocationTargetException"/>
+  <uml:Class xmi:id="_QURAAs--EdywsPAlzSc5Cw" name="InterruptedException"/>
+  <uml:Package xmi:id="_PcFa0s--EdywsPAlzSc5Cw" name="lang">
+    <packagedElement xmi:type="uml:Class" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_PcPL0M--EdywsPAlzSc5Cw"/>
+    <packagedElement xmi:type="uml:Class" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_QBMTAc--EdywsPAlzSc5Cw"/>
+    <packagedElement xmi:type="uml:Package" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_QURAAM--EdywsPAlzSc5Cw"/>
+    <packagedElement xmi:type="uml:Class" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_QURAAs--EdywsPAlzSc5Cw"/>
+  </uml:Package>
+  <uml:Package xmi:id="_QURAAM--EdywsPAlzSc5Cw" name="reflect">
+    <packagedElement xmi:type="uml:Class" href="file:/C:/Documents%20and%20Settings/Administrator.SERAPH/My%20Documents/CO620/bluejam/src/net/parallaxed/bluejam/gui/gui-i.uml#_QURAAc--EdywsPAlzSc5Cw"/>
+  </uml:Package>
+  <uml:Usage xmi:id="_IA40kM--EdywsPAlzSc5Cw">
+    <supplier xmi:type="uml:Package" href="platform:/resource/bluejam/bluejam.uml#_IAvDkc--EdywsPAlzSc5Cw"/>
+    <client xmi:type="uml:Package" href="platform:/resource/bluejam/bluejam.uml#_GW70M8--EdywsPAlzSc5Cw"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_IILvYM--EdywsPAlzSc5Cw">
+    <supplier xmi:type="uml:Package" href="platform:/resource/bluejam/bluejam.uml#_GXFlMM--EdywsPAlzSc5Cw"/>
+    <client xmi:type="uml:Package" href="platform:/resource/bluejam/bluejam.uml#_GW70M8--EdywsPAlzSc5Cw"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_INtIkM--EdywsPAlzSc5Cw">
+    <supplier xmi:type="uml:Package" href="platform:/resource/bluejam/bluejam.uml#_GW70M8--EdywsPAlzSc5Cw"/>
+    <client xmi:type="uml:Package" href="platform:/resource/bluejam/bluejam.uml#_GXFlMM--EdywsPAlzSc5Cw"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_IOADgc--EdywsPAlzSc5Cw">
+    <supplier xmi:type="uml:Package" href="platform:/resource/bluejam/bluejam.uml#_GW70Nc--EdywsPAlzSc5Cw"/>
+    <client xmi:type="uml:Package" href="platform:/resource/bluejam/bluejam.uml#_GXFlMM--EdywsPAlzSc5Cw"/>
+  </uml:Usage>
+  <uml:Usage xmi:id="_PdkokM--EdywsPAlzSc5Cw" supplier="_PcPL0M--EdywsPAlzSc5Cw" client="_NtX2QM--EdywsPAlzSc5Cw"/>
+  <uml:Usage xmi:id="_PeBUgs--EdywsPAlzSc5Cw" supplier="_Pbou4M--EdywsPAlzSc5Cw" client="_NtX2QM--EdywsPAlzSc5Cw"/>
+  <uml:Usage xmi:id="_PeUPcc--EdywsPAlzSc5Cw" supplier="_Pbyf4M--EdywsPAlzSc5Cw" client="_NtX2QM--EdywsPAlzSc5Cw"/>
+  <uml:Usage xmi:id="_Penxcc--EdywsPAlzSc5Cw" supplier="_Pb7p0c--EdywsPAlzSc5Cw" client="_NtX2QM--EdywsPAlzSc5Cw"/>
+  <uml:Usage xmi:id="_Pe6sYc--EdywsPAlzSc5Cw" supplier="_Pbe95M--EdywsPAlzSc5Cw" client="_NtX2QM--EdywsPAlzSc5Cw"/>
+  <uml:Usage xmi:id="_PfNnUc--EdywsPAlzSc5Cw" supplier="_Pbou48--EdywsPAlzSc5Cw" client="_NtX2QM--EdywsPAlzSc5Cw"/>
+  <uml:Usage xmi:id="_P3Wags--EdywsPAlzSc5Cw" supplier="_P3NQkM--EdywsPAlzSc5Cw" client="_NtX2Qc--EdywsPAlzSc5Cw"/>
+  <uml:Usage xmi:id="_P4itUs--EdywsPAlzSc5Cw" supplier="_P3NQkM--EdywsPAlzSc5Cw" client="_PdRtoc--EdywsPAlzSc5Cw"/>
+  <uml:Usage xmi:id="_P5l2MM--EdywsPAlzSc5Cw" supplier="_P3NQkM--EdywsPAlzSc5Cw" client="_PdbeoM--EdywsPAlzSc5Cw"/>
+  <uml:Usage xmi:id="_P6oYAM--EdywsPAlzSc5Cw" supplier="_PcPL0M--EdywsPAlzSc5Cw" client="_P6VdEM--EdywsPAlzSc5Cw"/>
+  <uml:Usage xmi:id="_P7FD8s--EdywsPAlzSc5Cw" supplier="_Pbou4M--EdywsPAlzSc5Cw" client="_P6VdEM--EdywsPAlzSc5Cw"/>
+  <uml:Usage xmi:id="_P7X-4c--EdywsPAlzSc5Cw" supplier="_Pbyf4M--EdywsPAlzSc5Cw" client="_P6VdEM--EdywsPAlzSc5Cw"/>
+  <uml:Usage xmi:id="_P7q50c--EdywsPAlzSc5Cw" supplier="_Pb7p0c--EdywsPAlzSc5Cw" client="_P6VdEM--EdywsPAlzSc5Cw"/>
+  <uml:Usage xmi:id="_P8Hlwc--EdywsPAlzSc5Cw" supplier="_P6enBc--EdywsPAlzSc5Cw" client="_P6VdEM--EdywsPAlzSc5Cw"/>
+  <uml:Usage xmi:id="_P-DfcM--EdywsPAlzSc5Cw" supplier="_PcPL0M--EdywsPAlzSc5Cw" client="_P83MoM--EdywsPAlzSc5Cw"/>
+  <uml:Usage xmi:id="_P-NQcs--EdywsPAlzSc5Cw" supplier="_P9wkgs--EdywsPAlzSc5Cw" client="_P83MoM--EdywsPAlzSc5Cw"/>
+  <uml:Usage xmi:id="_P-p8YM--EdywsPAlzSc5Cw" supplier="_Pbou4M--EdywsPAlzSc5Cw" client="_P83MoM--EdywsPAlzSc5Cw"/>
+  <uml:Usage xmi:id="_P-ztYc--EdywsPAlzSc5Cw" supplier="_Pb7p0c--EdywsPAlzSc5Cw" client="_P83MoM--EdywsPAlzSc5Cw"/>
+  <uml:Usage xmi:id="_P_GoUc--EdywsPAlzSc5Cw" supplier="_P9nakM--EdywsPAlzSc5Cw" client="_P83MoM--EdywsPAlzSc5Cw"/>
+  <uml:Usage xmi:id="_P_2PMc--EdywsPAlzSc5Cw" supplier="_P9nalM--EdywsPAlzSc5Cw" client="_P83MoM--EdywsPAlzSc5Cw"/>
+  <uml:Usage xmi:id="_QBMTAs--EdywsPAlzSc5Cw" supplier="_QBCiAc--EdywsPAlzSc5Cw" client="_QA4xAM--EdywsPAlzSc5Cw"/>
+  <uml:Usage xmi:id="_QBfN8c--EdywsPAlzSc5Cw" supplier="_PcPL0M--EdywsPAlzSc5Cw" client="_QA4xAM--EdywsPAlzSc5Cw"/>
+  <uml:Usage xmi:id="_QByI4s--EdywsPAlzSc5Cw" supplier="_Pbou4M--EdywsPAlzSc5Cw" client="_QA4xAM--EdywsPAlzSc5Cw"/>
+  <uml:Usage xmi:id="_QCFD0c--EdywsPAlzSc5Cw" supplier="_QBMTAc--EdywsPAlzSc5Cw" client="_QA4xAM--EdywsPAlzSc5Cw"/>
+  <uml:Usage xmi:id="_QChvwc--EdywsPAlzSc5Cw" supplier="_Pb7p0c--EdywsPAlzSc5Cw" client="_QA4xAM--EdywsPAlzSc5Cw"/>
+  <uml:Usage xmi:id="_QC0qsc--EdywsPAlzSc5Cw" supplier="_P9nalM--EdywsPAlzSc5Cw" client="_QA4xAM--EdywsPAlzSc5Cw"/>
+  <uml:Usage xmi:id="_QDIMsc--EdywsPAlzSc5Cw" supplier="_QBMTAM--EdywsPAlzSc5Cw" client="_QA4xAM--EdywsPAlzSc5Cw"/>
+  <uml:Usage xmi:id="_QEA9gc--EdywsPAlzSc5Cw" supplier="_QBCiAc--EdywsPAlzSc5Cw" client="_QDuCkM--EdywsPAlzSc5Cw"/>
+  <uml:Usage xmi:id="_QEUfgc--EdywsPAlzSc5Cw" supplier="_PcPL0M--EdywsPAlzSc5Cw" client="_QDuCkM--EdywsPAlzSc5Cw"/>
+  <uml:Usage xmi:id="_QExLcs--EdywsPAlzSc5Cw" supplier="_Pbou4M--EdywsPAlzSc5Cw" client="_QDuCkM--EdywsPAlzSc5Cw"/>
+  <uml:Usage xmi:id="_QFEGYc--EdywsPAlzSc5Cw" supplier="_QD3zkc--EdywsPAlzSc5Cw" client="_QDuCkM--EdywsPAlzSc5Cw"/>
+  <uml:Usage xmi:id="_QFXBUc--EdywsPAlzSc5Cw" supplier="_Pb7p0c--EdywsPAlzSc5Cw" client="_QDuCkM--EdywsPAlzSc5Cw"/>
+  <uml:Usage xmi:id="_QFp8Qc--EdywsPAlzSc5Cw" supplier="_QEA9gM--EdywsPAlzSc5Cw" client="_QDuCkM--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-gM--EdywsPAlzSc5Cw" base_Element="_IA40kM--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-gc--EdywsPAlzSc5Cw" base_Element="_IILvYM--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-gs--EdywsPAlzSc5Cw" base_Element="_INtIkM--EdywsPAlzSc5Cw"/>
+  <Omondo_1:Omondo__Import xmi:id="_S2Y-g8--EdywsPAlzSc5Cw" base_Usage="_IOADgc--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-hM--EdywsPAlzSc5Cw" base_Element="_IOADgc--EdywsPAlzSc5Cw"/>
+  <Omondo_1:Omondo__Import xmi:id="_S2Y-hc--EdywsPAlzSc5Cw" base_Usage="_PdkokM--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-hs--EdywsPAlzSc5Cw" base_Element="_PdkokM--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-h8--EdywsPAlzSc5Cw" base_Element="_PeBUgs--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-iM--EdywsPAlzSc5Cw" base_Element="_PeUPcc--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-ic--EdywsPAlzSc5Cw" base_Element="_Penxcc--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-is--EdywsPAlzSc5Cw" base_Element="_Pe6sYc--EdywsPAlzSc5Cw"/>
+  <Omondo_1:Omondo__Import xmi:id="_S2Y-i8--EdywsPAlzSc5Cw" base_Usage="_PfNnUc--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-jM--EdywsPAlzSc5Cw" base_Element="_PfNnUc--EdywsPAlzSc5Cw"/>
+  <Omondo_1:Omondo__Import xmi:id="_S2Y-jc--EdywsPAlzSc5Cw" base_Usage="_P3Wags--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-js--EdywsPAlzSc5Cw" base_Element="_P3Wags--EdywsPAlzSc5Cw"/>
+  <Omondo_1:Omondo__Import xmi:id="_S2Y-j8--EdywsPAlzSc5Cw" base_Usage="_P4itUs--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-kM--EdywsPAlzSc5Cw" base_Element="_P4itUs--EdywsPAlzSc5Cw"/>
+  <Omondo_1:Omondo__Import xmi:id="_S2Y-kc--EdywsPAlzSc5Cw" base_Usage="_P5l2MM--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-ks--EdywsPAlzSc5Cw" base_Element="_P5l2MM--EdywsPAlzSc5Cw"/>
+  <Omondo_1:Omondo__Import xmi:id="_S2Y-k8--EdywsPAlzSc5Cw" base_Usage="_P6oYAM--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-lM--EdywsPAlzSc5Cw" base_Element="_P6oYAM--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-lc--EdywsPAlzSc5Cw" base_Element="_P7FD8s--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-ls--EdywsPAlzSc5Cw" base_Element="_P7X-4c--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-l8--EdywsPAlzSc5Cw" base_Element="_P7q50c--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-mM--EdywsPAlzSc5Cw" base_Element="_P8Hlwc--EdywsPAlzSc5Cw"/>
+  <Omondo_1:Omondo__Import xmi:id="_S2Y-mc--EdywsPAlzSc5Cw" base_Usage="_P-DfcM--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-ms--EdywsPAlzSc5Cw" base_Element="_P-DfcM--EdywsPAlzSc5Cw"/>
+  <Omondo_1:Omondo__Import xmi:id="_S2Y-m8--EdywsPAlzSc5Cw" base_Usage="_P-NQcs--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-nM--EdywsPAlzSc5Cw" base_Element="_P-NQcs--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-nc--EdywsPAlzSc5Cw" base_Element="_P-p8YM--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-ns--EdywsPAlzSc5Cw" base_Element="_P-ztYc--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-n8--EdywsPAlzSc5Cw" base_Element="_P_GoUc--EdywsPAlzSc5Cw"/>
+  <Omondo_1:Omondo__Import xmi:id="_S2Y-oM--EdywsPAlzSc5Cw" base_Usage="_P_2PMc--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-oc--EdywsPAlzSc5Cw" base_Element="_P_2PMc--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-os--EdywsPAlzSc5Cw" base_Element="_QBMTAs--EdywsPAlzSc5Cw"/>
+  <Omondo_1:Omondo__Import xmi:id="_S2Y-o8--EdywsPAlzSc5Cw" base_Usage="_QBfN8c--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-pM--EdywsPAlzSc5Cw" base_Element="_QBfN8c--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-pc--EdywsPAlzSc5Cw" base_Element="_QByI4s--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-ps--EdywsPAlzSc5Cw" base_Element="_QCFD0c--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-p8--EdywsPAlzSc5Cw" base_Element="_QChvwc--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-qM--EdywsPAlzSc5Cw" base_Element="_QC0qsc--EdywsPAlzSc5Cw"/>
+  <Omondo_1:Omondo__Access xmi:id="_S2Y-qc--EdywsPAlzSc5Cw" base_Usage="_QDIMsc--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-qs--EdywsPAlzSc5Cw" base_Element="_QDIMsc--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-q8--EdywsPAlzSc5Cw" base_Element="_QEA9gc--EdywsPAlzSc5Cw"/>
+  <Omondo_1:Omondo__Import xmi:id="_S2Y-rM--EdywsPAlzSc5Cw" base_Usage="_QEUfgc--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-rc--EdywsPAlzSc5Cw" base_Element="_QEUfgc--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-rs--EdywsPAlzSc5Cw" base_Element="_QExLcs--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-r8--EdywsPAlzSc5Cw" base_Element="_QFEGYc--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-sM--EdywsPAlzSc5Cw" base_Element="_QFXBUc--EdywsPAlzSc5Cw"/>
+  <JavaProfile_1:JavaProfile__AutoDetected xmi:id="_S2Y-sc--EdywsPAlzSc5Cw" base_Element="_QFp8Qc--EdywsPAlzSc5Cw"/>
+  <uml:Package xmi:id="_S2iIcM--EdywsPAlzSc5Cw" name="MyProfiles">
+    <profileApplication xmi:id="_ClPrVM--EdywsPAlzSc5Cw">
+      <eAnnotations xmi:id="_ClY1MM--EdywsPAlzSc5Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/org.eclipse.uml2.uml.resources/profiles/UML2.profile.uml#_dhEUENSUEdqN9tnr0j3PAQ"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/org.eclipse.uml2.uml.resources/profiles/UML2.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:id="_ClY1Mc--EdywsPAlzSc5Cw">
+      <eAnnotations xmi:id="_ClY1Ms--EdywsPAlzSc5Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Common_3.2_SN.profile.uml#_7hMtlSK5EdujMN-Mf6X4Bw"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Common_3.2_SN.profile.uml#_RgfPHCK2Edu07u_JJk0LDQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_ClY1M8--EdywsPAlzSc5Cw">
+      <eAnnotations xmi:id="_ClY1NM--EdywsPAlzSc5Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Persistence_3.2_SN.profile.uml#_AevloCK6EdujMN-Mf6X4Bw"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Persistence_3.2_SN.profile.uml#_RgVfdiK2Edu07u_JJk0LDQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_ClY1Nc--EdywsPAlzSc5Cw">
+      <eAnnotations xmi:id="_ClY1Ns--EdywsPAlzSc5Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Omondo.profile.uml#_zrN_1iUoEdmNXYQzyImvfA"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Omondo.profile.uml#_zrN_0iUoEdmNXYQzyImvfA"/>
+    </profileApplication>
+    <profileApplication xmi:id="_ClY1N8--EdywsPAlzSc5Cw">
+      <eAnnotations xmi:id="_ClimMM--EdywsPAlzSc5Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Java.profile.uml#_aZhLlH6MEdmbwasWWc4yvw"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Java.profile.uml#_aZhLkH6MEdmbwasWWc4yvw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_ClimMc--EdywsPAlzSc5Cw">
+      <eAnnotations xmi:id="_ClimMs--EdywsPAlzSc5Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Service_3.2_SN.profile.uml#_6VpgcCK5EdujMN-Mf6X4Bw"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Service_3.2_SN.profile.uml#_RgMRQCK2Edu07u_JJk0LDQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_ClimM8--EdywsPAlzSc5Cw">
+      <eAnnotations xmi:id="_ClimNM--EdywsPAlzSc5Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Xml_3.2_SN.profile.uml#_7JNEVSK5EdujMN-Mf6X4Bw"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Xml_3.2_SN.profile.uml#_RgVfXCK2Edu07u_JJk0LDQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_ClimNc--EdywsPAlzSc5Cw">
+      <eAnnotations xmi:id="_ClimNs--EdywsPAlzSc5Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Archetype.profile.uml#_f6v3QOROEduiB7qvAtFfTA"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Archetype.profile.uml#_j-cLoORNEduiB7qvAtFfTA"/>
+    </profileApplication>
+    <profileApplication xmi:id="_ClimN8--EdywsPAlzSc5Cw">
+      <eAnnotations xmi:id="_ClimOM--EdywsPAlzSc5Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Presentation_3.2_SN.profile.uml#_4Um1wCK5EdujMN-Mf6X4Bw"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Presentation_3.2_SN.profile.uml#_RgVcjiK2Edu07u_JJk0LDQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_ClimOc--EdywsPAlzSc5Cw">
+      <eAnnotations xmi:id="_ClimOs--EdywsPAlzSc5Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Meta.profile.uml#_kycnUIE4EduiecUdqhZMrw"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Meta.profile.uml#_EJn30IE0EduiecUdqhZMrw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_ClimO8--EdywsPAlzSc5Cw">
+      <eAnnotations xmi:id="_ClsXMM--EdywsPAlzSc5Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Webservice_3.2_SN.profile.uml#_6jgWRSK5EdujMN-Mf6X4Bw"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Webservice_3.2_SN.profile.uml#_RgVmWCK2Edu07u_JJk0LDQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_ClsXMc--EdywsPAlzSc5Cw">
+      <eAnnotations xmi:id="_ClsXMs--EdywsPAlzSc5Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/org.eclipse.uml2.uml.resources/profiles/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/org.eclipse.uml2.uml.resources/profiles/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:id="_ClsXM8--EdywsPAlzSc5Cw">
+      <eAnnotations xmi:id="_ClsXNM--EdywsPAlzSc5Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Meta_3.2_SN.profile.uml#_7sFH4CK5EdujMN-Mf6X4Bw"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Meta_3.2_SN.profile.uml#_RgVcYiK2Edu07u_JJk0LDQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_ClsXNc--EdywsPAlzSc5Cw">
+      <eAnnotations xmi:id="_ClsXNs--EdywsPAlzSc5Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Process_3.2_SN.profile.uml#_7D2DMCK5EdujMN-Mf6X4Bw"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Process_3.2_SN.profile.uml#_RgfOnSK2Edu07u_JJk0LDQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_IYus5M--EdywsPAlzSc5Cw">
+      <eAnnotations xmi:id="_IYus5c--EdywsPAlzSc5Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Meta_3.2_SN.profile.uml#_7sFH4CK5EdujMN-Mf6X4Bw"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Meta_3.2_SN.profile.uml#_RgVcYiK2Edu07u_JJk0LDQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_IY32wM--EdywsPAlzSc5Cw">
+      <eAnnotations xmi:id="_IY32wc--EdywsPAlzSc5Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Webservice_3.2_SN.profile.uml#_6jgWRSK5EdujMN-Mf6X4Bw"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Webservice_3.2_SN.profile.uml#_RgVmWCK2Edu07u_JJk0LDQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_IY32ws--EdywsPAlzSc5Cw">
+      <eAnnotations xmi:id="_IY32w8--EdywsPAlzSc5Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Xml_3.2_SN.profile.uml#_7JNEVSK5EdujMN-Mf6X4Bw"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Xml_3.2_SN.profile.uml#_RgVfXCK2Edu07u_JJk0LDQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_IY32xM--EdywsPAlzSc5Cw">
+      <eAnnotations xmi:id="_IY32xc--EdywsPAlzSc5Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Java.profile.uml#_aZhLlH6MEdmbwasWWc4yvw"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Java.profile.uml#_aZhLkH6MEdmbwasWWc4yvw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_IY32xs--EdywsPAlzSc5Cw">
+      <eAnnotations xmi:id="_IY32x8--EdywsPAlzSc5Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Meta.profile.uml#_kycnUIE4EduiecUdqhZMrw"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Meta.profile.uml#_EJn30IE0EduiecUdqhZMrw"/>
+    </profileApplication>
+    <profileApplication xmi:id="_IY32yM--EdywsPAlzSc5Cw">
+      <eAnnotations xmi:id="_IY32yc--EdywsPAlzSc5Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Omondo.profile.uml#_zrN_1iUoEdmNXYQzyImvfA"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Omondo.profile.uml#_zrN_0iUoEdmNXYQzyImvfA"/>
+    </profileApplication>
+    <profileApplication xmi:id="_IY32ys--EdywsPAlzSc5Cw">
+      <eAnnotations xmi:id="_IY32y8--EdywsPAlzSc5Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Process_3.2_SN.profile.uml#_7D2DMCK5EdujMN-Mf6X4Bw"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Process_3.2_SN.profile.uml#_RgfOnSK2Edu07u_JJk0LDQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_IY32zM--EdywsPAlzSc5Cw">
+      <eAnnotations xmi:id="_IY32zc--EdywsPAlzSc5Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/org.eclipse.uml2.uml.resources/profiles/Standard.profile.uml#_yzU58YinEdqtvbnfB2L_5w"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/org.eclipse.uml2.uml.resources/profiles/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:id="_IZBnwM--EdywsPAlzSc5Cw">
+      <eAnnotations xmi:id="_IZBnwc--EdywsPAlzSc5Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/org.eclipse.uml2.uml.resources/profiles/UML2.profile.uml#_dhEUENSUEdqN9tnr0j3PAQ"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/org.eclipse.uml2.uml.resources/profiles/UML2.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:id="_IZBnws--EdywsPAlzSc5Cw">
+      <eAnnotations xmi:id="_IZBnw8--EdywsPAlzSc5Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Archetype.profile.uml#_f6v3QOROEduiB7qvAtFfTA"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Archetype.profile.uml#_j-cLoORNEduiB7qvAtFfTA"/>
+    </profileApplication>
+    <profileApplication xmi:id="_IZBnxM--EdywsPAlzSc5Cw">
+      <eAnnotations xmi:id="_IZBnxc--EdywsPAlzSc5Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Common_3.2_SN.profile.uml#_7hMtlSK5EdujMN-Mf6X4Bw"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Common_3.2_SN.profile.uml#_RgfPHCK2Edu07u_JJk0LDQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_IZBnxs--EdywsPAlzSc5Cw">
+      <eAnnotations xmi:id="_IZLYwM--EdywsPAlzSc5Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Service_3.2_SN.profile.uml#_6VpgcCK5EdujMN-Mf6X4Bw"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Service_3.2_SN.profile.uml#_RgMRQCK2Edu07u_JJk0LDQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_IZLYwc--EdywsPAlzSc5Cw">
+      <eAnnotations xmi:id="_IZLYws--EdywsPAlzSc5Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Persistence_3.2_SN.profile.uml#_AevloCK6EdujMN-Mf6X4Bw"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Persistence_3.2_SN.profile.uml#_RgVfdiK2Edu07u_JJk0LDQ"/>
+    </profileApplication>
+    <profileApplication xmi:id="_IZLYw8--EdywsPAlzSc5Cw">
+      <eAnnotations xmi:id="_IZLYxM--EdywsPAlzSc5Cw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Presentation_3.2_SN.profile.uml#_4Um1wCK5EdujMN-Mf6X4Bw"/>
+      </eAnnotations>
+      <appliedProfile href="platform:/plugin/com.omondo.uml.core/profiles/Omondo_Presentation_3.2_SN.profile.uml#_RgVcjiK2Edu07u_JJk0LDQ"/>
+    </profileApplication>
+  </uml:Package>
+</xmi:XMI>
